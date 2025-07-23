@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: a473862877b72654a9399f06106aaaf7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6639017980346564540
+    second: Sence2-StartButton_0
+  - first:
+      213: -5850205423347955265
+    second: Sence2-StartButton_1
+  - first:
+      213: 7570279747936286769
+    second: Sence2-StartButton_2
+  - first:
+      213: 3571659213710324103
+    second: Sence2-StartButton_3
+  - first:
+      213: 8967564256798211122
+    second: Sence2-StartButton_4
+  - first:
+      213: -2334225220220221757
+    second: Sence2-StartButton_5
+  - first:
+      213: -2829496422886985026
+    second: Sence2-StartButton_6
+  - first:
+      213: -5201536811574869690
+    second: Sence2-StartButton_7
+  - first:
+      213: 711773924858074918
+    second: Sence2-StartButton_8
+  - first:
+      213: 3124099007384647844
+    second: Sence2-StartButton_9
+  - first:
+      213: -636702258497733139
+    second: Sence2-StartButton_10
+  - first:
+      213: 7380540217572423016
+    second: Sence2-StartButton_11
+  - first:
+      213: -1669733807097660279
+    second: Sence2-StartButton_12
+  - first:
+      213: 7943806960659389011
+    second: Sence2-StartButton_13
+  - first:
+      213: -3606627367684667789
+    second: Sence2-StartButton_14
+  - first:
+      213: 5234742672924593582
+    second: Sence2-StartButton_15
+  - first:
+      213: -6710753156323702898
+    second: Sence2-StartButton_16
+  - first:
+      213: -6137772784578329230
+    second: Sence2-StartButton_17
+  - first:
+      213: 3689790260675499977
+    second: Sence2-StartButton_18
+  - first:
+      213: -1007968786612529693
+    second: Sence2-StartButton_19
+  - first:
+      213: -7459755294967279904
+    second: Sence2-StartButton_20
+  - first:
+      213: -9171433865852394275
+    second: Sence2-StartButton_21
+  - first:
+      213: -294307259017302896
+    second: Sence2-StartButton_22
+  - first:
+      213: 8784388585188667108
+    second: Sence2-StartButton_23
+  - first:
+      213: -7149709932781821346
+    second: Sence2-StartButton_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sence2-StartButton_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 5356
+        height: 1753
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440030862587dd3a0800000000000000
+      internalID: -6639017980346564540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_1
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 882
+        width: 845
+        height: 835
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb90846c925efcea0800000000000000
+      internalID: -5850205423347955265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_2
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 882
+        width: 799
+        height: 824
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138731a52590f0960800000000000000
+      internalID: 7570279747936286769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_3
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 892
+        width: 844
+        height: 825
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78174f3a125119130800000000000000
+      internalID: 3571659213710324103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_4
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 949
+        width: 313
+        height: 719
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c72faed20337c70800000000000000
+      internalID: 8967564256798211122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_5
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 896
+        width: 518
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6040b878a2b9fd0800000000000000
+      internalID: -2334225220220221757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_6
+      rect:
+        serializedVersion: 2
+        x: 4797
+        y: 1136
+        width: 207
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb23594aefb9bb8d0800000000000000
+      internalID: -2829496422886985026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_7
+      rect:
+        serializedVersion: 2
+        x: 4785
+        y: 919
+        width: 231
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64146fb24dd60d7b0800000000000000
+      internalID: -5201536811574869690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_8
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 213
+        width: 215
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6271d8f0d9ab0e900800000000000000
+      internalID: 711773924858074918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_9
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 206
+        width: 264
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8ff4abe770b5b20800000000000000
+      internalID: 3124099007384647844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_10
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 207
+        width: 192
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedbd865baaf927f0800000000000000
+      internalID: -636702258497733139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_11
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 458
+        width: 122
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86573ee5932fc6660800000000000000
+      internalID: 7380540217572423016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_12
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 206
+        width: 206
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cbb76f2f9e3d8e0800000000000000
+      internalID: -1669733807097660279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_13
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 104
+        width: 272
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ad066b7521e3e60800000000000000
+      internalID: 7943806960659389011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_14
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 206
+        width: 264
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37604ff848fa2fdc0800000000000000
+      internalID: -3606627367684667789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_15
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 207
+        width: 192
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadcf36e9ba85a840800000000000000
+      internalID: 5234742672924593582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_16
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 206
+        width: 206
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e878ef53f8d9ed2a0800000000000000
+      internalID: -6710753156323702898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_17
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 207
+        width: 192
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2750627fb2042daa0800000000000000
+      internalID: -6137772784578329230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_18
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 206
+        width: 246
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7524751b4c43330800000000000000
+      internalID: 3689790260675499977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_19
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 211
+        width: 174
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e55741aab9f202f0800000000000000
+      internalID: -1007968786612529693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_20
+      rect:
+        serializedVersion: 2
+        x: 3761
+        y: 207
+        width: 192
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eec22c2510a97890800000000000000
+      internalID: -7459755294967279904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_21
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 206
+        width: 264
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd461e8cd7588b080800000000000000
+      internalID: -9171433865852394275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_22
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 206
+        width: 270
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c64737b196aebf0800000000000000
+      internalID: -294307259017302896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_23
+      rect:
+        serializedVersion: 2
+        x: 4665
+        y: 327
+        width: 84
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eeaa2560ea68e970800000000000000
+      internalID: 8784388585188667108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence2-StartButton_24
+      rect:
+        serializedVersion: 2
+        x: 4663
+        y: 209
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52257962b027cc90800000000000000
+      internalID: -7149709932781821346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e0ab1f579aa8ea844bbc889f0545eab5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sence2-StartButton_0: -6639017980346564540
+      Sence2-StartButton_1: -5850205423347955265
+      Sence2-StartButton_10: -636702258497733139
+      Sence2-StartButton_11: 7380540217572423016
+      Sence2-StartButton_12: -1669733807097660279
+      Sence2-StartButton_13: 7943806960659389011
+      Sence2-StartButton_14: -3606627367684667789
+      Sence2-StartButton_15: 5234742672924593582
+      Sence2-StartButton_16: -6710753156323702898
+      Sence2-StartButton_17: -6137772784578329230
+      Sence2-StartButton_18: 3689790260675499977
+      Sence2-StartButton_19: -1007968786612529693
+      Sence2-StartButton_2: 7570279747936286769
+      Sence2-StartButton_20: -7459755294967279904
+      Sence2-StartButton_21: -9171433865852394275
+      Sence2-StartButton_22: -294307259017302896
+      Sence2-StartButton_23: 8784388585188667108
+      Sence2-StartButton_24: -7149709932781821346
+      Sence2-StartButton_3: 3571659213710324103
+      Sence2-StartButton_4: 8967564256798211122
+      Sence2-StartButton_5: -2334225220220221757
+      Sence2-StartButton_6: -2829496422886985026
+      Sence2-StartButton_7: -5201536811574869690
+      Sence2-StartButton_8: 711773924858074918
+      Sence2-StartButton_9: 3124099007384647844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

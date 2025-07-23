@@ -1,0 +1,5421 @@
+fileFormatVersion: 2
+guid: 367ec4fd9ed3a0346a7adc1d87d39136
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8960251645643714133
+    second: Sence3-Q12_0
+  - first:
+      213: -1741756188872875645
+    second: Sence3-Q12_1
+  - first:
+      213: -5888829060832887320
+    second: Sence3-Q12_2
+  - first:
+      213: -5045739107912929464
+    second: Sence3-Q12_3
+  - first:
+      213: -1732365986983959179
+    second: Sence3-Q12_4
+  - first:
+      213: 1072399671728404574
+    second: Sence3-Q12_5
+  - first:
+      213: -6277074957791261006
+    second: Sence3-Q12_6
+  - first:
+      213: 7322615356390728359
+    second: Sence3-Q12_7
+  - first:
+      213: 9121298677180576068
+    second: Sence3-Q12_8
+  - first:
+      213: 8351316783180619025
+    second: Sence3-Q12_9
+  - first:
+      213: 4405799225976112795
+    second: Sence3-Q12_10
+  - first:
+      213: 5169141145533301970
+    second: Sence3-Q12_11
+  - first:
+      213: 1438252240429665210
+    second: Sence3-Q12_12
+  - first:
+      213: 930379992999304339
+    second: Sence3-Q12_13
+  - first:
+      213: -8926622566655388406
+    second: Sence3-Q12_14
+  - first:
+      213: 5819838789040352262
+    second: Sence3-Q12_15
+  - first:
+      213: 5088411379938265824
+    second: Sence3-Q12_16
+  - first:
+      213: -8349494375999450342
+    second: Sence3-Q12_17
+  - first:
+      213: -7907152617874469807
+    second: Sence3-Q12_18
+  - first:
+      213: -8490936490666757844
+    second: Sence3-Q12_19
+  - first:
+      213: 6042033857251651638
+    second: Sence3-Q12_20
+  - first:
+      213: -2827233958149039235
+    second: Sence3-Q12_21
+  - first:
+      213: 8063814512460712645
+    second: Sence3-Q12_22
+  - first:
+      213: 8217000344595737041
+    second: Sence3-Q12_23
+  - first:
+      213: 7373166712222900074
+    second: Sence3-Q12_24
+  - first:
+      213: 4536568035266678818
+    second: Sence3-Q12_25
+  - first:
+      213: 4316015040660703918
+    second: Sence3-Q12_26
+  - first:
+      213: 1027298054344365658
+    second: Sence3-Q12_27
+  - first:
+      213: 6493605093988405130
+    second: Sence3-Q12_28
+  - first:
+      213: 8114495128276733792
+    second: Sence3-Q12_29
+  - first:
+      213: 7451732972094393474
+    second: Sence3-Q12_30
+  - first:
+      213: 2046913038525026005
+    second: Sence3-Q12_31
+  - first:
+      213: 3031837928758106908
+    second: Sence3-Q12_32
+  - first:
+      213: -4216800809412819186
+    second: Sence3-Q12_33
+  - first:
+      213: -351663160789797591
+    second: Sence3-Q12_34
+  - first:
+      213: 5230156853245079654
+    second: Sence3-Q12_35
+  - first:
+      213: -2621054381425283428
+    second: Sence3-Q12_36
+  - first:
+      213: -1795331485357875281
+    second: Sence3-Q12_37
+  - first:
+      213: 7481788435847025355
+    second: Sence3-Q12_38
+  - first:
+      213: -3186412446863833045
+    second: Sence3-Q12_39
+  - first:
+      213: 6383597441680694239
+    second: Sence3-Q12_40
+  - first:
+      213: 2236467985187544994
+    second: Sence3-Q12_41
+  - first:
+      213: -2560807698553633045
+    second: Sence3-Q12_42
+  - first:
+      213: 8041065761428412097
+    second: Sence3-Q12_43
+  - first:
+      213: -2036692869882119281
+    second: Sence3-Q12_44
+  - first:
+      213: -6814300292185409821
+    second: Sence3-Q12_45
+  - first:
+      213: -6516624834417909069
+    second: Sence3-Q12_46
+  - first:
+      213: 254453241520287943
+    second: Sence3-Q12_47
+  - first:
+      213: -4158922912730085045
+    second: Sence3-Q12_48
+  - first:
+      213: 2900121157917394850
+    second: Sence3-Q12_49
+  - first:
+      213: -6433426147456597421
+    second: Sence3-Q12_50
+  - first:
+      213: 1895818510258390127
+    second: Sence3-Q12_51
+  - first:
+      213: -1296747111476493123
+    second: Sence3-Q12_52
+  - first:
+      213: -8893058015458710370
+    second: Sence3-Q12_53
+  - first:
+      213: -1136828819785068844
+    second: Sence3-Q12_54
+  - first:
+      213: -1946465351339310842
+    second: Sence3-Q12_55
+  - first:
+      213: -3460207068215645556
+    second: Sence3-Q12_56
+  - first:
+      213: 6449069213379438664
+    second: Sence3-Q12_57
+  - first:
+      213: -7512812954563981903
+    second: Sence3-Q12_58
+  - first:
+      213: 1328698968606777588
+    second: Sence3-Q12_59
+  - first:
+      213: 5653061611565641432
+    second: Sence3-Q12_60
+  - first:
+      213: -6902174574869220509
+    second: Sence3-Q12_61
+  - first:
+      213: 3156243513593583436
+    second: Sence3-Q12_62
+  - first:
+      213: -148063320984874873
+    second: Sence3-Q12_63
+  - first:
+      213: -4679904648412081169
+    second: Sence3-Q12_64
+  - first:
+      213: 2123213235404155665
+    second: Sence3-Q12_65
+  - first:
+      213: 5509918491120720691
+    second: Sence3-Q12_66
+  - first:
+      213: 2776767507885258996
+    second: Sence3-Q12_67
+  - first:
+      213: 6771051863035022146
+    second: Sence3-Q12_68
+  - first:
+      213: 4794532708549397007
+    second: Sence3-Q12_69
+  - first:
+      213: 7129587015870519247
+    second: Sence3-Q12_70
+  - first:
+      213: 4356116926081715223
+    second: Sence3-Q12_71
+  - first:
+      213: -1725213529347500857
+    second: Sence3-Q12_72
+  - first:
+      213: 5623912692571894139
+    second: Sence3-Q12_73
+  - first:
+      213: -6452893767564228268
+    second: Sence3-Q12_74
+  - first:
+      213: 657769633373431956
+    second: Sence3-Q12_75
+  - first:
+      213: -6756319179233686404
+    second: Sence3-Q12_76
+  - first:
+      213: -1835643825146586110
+    second: Sence3-Q12_77
+  - first:
+      213: -172651531202534298
+    second: Sence3-Q12_78
+  - first:
+      213: -3145978544367980770
+    second: Sence3-Q12_79
+  - first:
+      213: 31496996638358710
+    second: Sence3-Q12_80
+  - first:
+      213: 8366118954288607093
+    second: Sence3-Q12_81
+  - first:
+      213: -4267128344100180571
+    second: Sence3-Q12_82
+  - first:
+      213: 4012530289038093487
+    second: Sence3-Q12_83
+  - first:
+      213: 8178849053608272421
+    second: Sence3-Q12_84
+  - first:
+      213: -3469327582920922571
+    second: Sence3-Q12_85
+  - first:
+      213: -4743901833748760513
+    second: Sence3-Q12_86
+  - first:
+      213: 1038215912297846980
+    second: Sence3-Q12_87
+  - first:
+      213: -4086141460187917873
+    second: Sence3-Q12_88
+  - first:
+      213: -3296790342553938817
+    second: Sence3-Q12_89
+  - first:
+      213: 1978691592671999826
+    second: Sence3-Q12_90
+  - first:
+      213: 2049647630311561397
+    second: Sence3-Q12_91
+  - first:
+      213: -3111867491231846122
+    second: Sence3-Q12_92
+  - first:
+      213: -2277496394349179145
+    second: Sence3-Q12_93
+  - first:
+      213: -1891075578957572295
+    second: Sence3-Q12_94
+  - first:
+      213: 2357888947421461325
+    second: Sence3-Q12_95
+  - first:
+      213: 7653710722342225533
+    second: Sence3-Q12_96
+  - first:
+      213: -3958462376387589384
+    second: Sence3-Q12_97
+  - first:
+      213: 6473124009181772651
+    second: Sence3-Q12_98
+  - first:
+      213: -9057589852941499224
+    second: Sence3-Q12_99
+  - first:
+      213: -1209098216290891244
+    second: Sence3-Q12_100
+  - first:
+      213: -5125747533094348212
+    second: Sence3-Q12_101
+  - first:
+      213: 5442531189972854578
+    second: Sence3-Q12_102
+  - first:
+      213: 1370679845324462077
+    second: Sence3-Q12_103
+  - first:
+      213: 8535978796357843068
+    second: Sence3-Q12_104
+  - first:
+      213: 7621587944803286063
+    second: Sence3-Q12_105
+  - first:
+      213: 334446709297760270
+    second: Sence3-Q12_106
+  - first:
+      213: 2814607022017854260
+    second: Sence3-Q12_107
+  - first:
+      213: -7618190959870048748
+    second: Sence3-Q12_108
+  - first:
+      213: -3600627884839098630
+    second: Sence3-Q12_109
+  - first:
+      213: -90872806699685224
+    second: Sence3-Q12_110
+  - first:
+      213: 3863709246175935070
+    second: Sence3-Q12_111
+  - first:
+      213: -129986543145598130
+    second: Sence3-Q12_112
+  - first:
+      213: -3926357666697652465
+    second: Sence3-Q12_113
+  - first:
+      213: 1216885678544960534
+    second: Sence3-Q12_114
+  - first:
+      213: -3250810860797587863
+    second: Sence3-Q12_115
+  - first:
+      213: 1153763374043069409
+    second: Sence3-Q12_116
+  - first:
+      213: -8286703417409029033
+    second: Sence3-Q12_117
+  - first:
+      213: -341506378159515522
+    second: Sence3-Q12_118
+  - first:
+      213: 8280315189035688502
+    second: Sence3-Q12_119
+  - first:
+      213: 6216321215802227777
+    second: Sence3-Q12_120
+  - first:
+      213: 3738924213492653796
+    second: Sence3-Q12_121
+  - first:
+      213: 4414043250726299026
+    second: Sence3-Q12_122
+  - first:
+      213: 2960432690327440784
+    second: Sence3-Q12_123
+  - first:
+      213: 7862278248184405938
+    second: Sence3-Q12_124
+  - first:
+      213: -436822846274534236
+    second: Sence3-Q12_125
+  - first:
+      213: -8445446624107297085
+    second: Sence3-Q12_126
+  - first:
+      213: -141199067762796978
+    second: Sence3-Q12_127
+  - first:
+      213: 9160398229693207313
+    second: Sence3-Q12_128
+  - first:
+      213: -1772863592395044719
+    second: Sence3-Q12_129
+  - first:
+      213: 3616006457234489284
+    second: Sence3-Q12_130
+  - first:
+      213: -3766378003642524145
+    second: Sence3-Q12_131
+  - first:
+      213: 2340350153194161545
+    second: Sence3-Q12_132
+  - first:
+      213: 7560726418454627788
+    second: Sence3-Q12_133
+  - first:
+      213: -8092932891454167419
+    second: Sence3-Q12_134
+  - first:
+      213: -9223283176981895539
+    second: Sence3-Q12_135
+  - first:
+      213: 8193794103552827191
+    second: Sence3-Q12_136
+  - first:
+      213: 901615053282254116
+    second: Sence3-Q12_137
+  - first:
+      213: -1788951796544440245
+    second: Sence3-Q12_138
+  - first:
+      213: 3328962352213091103
+    second: Sence3-Q12_139
+  - first:
+      213: 3553618793651162936
+    second: Sence3-Q12_140
+  - first:
+      213: 641231177634488729
+    second: Sence3-Q12_141
+  - first:
+      213: -7580236047282492248
+    second: Sence3-Q12_142
+  - first:
+      213: -3241562336492497951
+    second: Sence3-Q12_143
+  - first:
+      213: 7974775170100864417
+    second: Sence3-Q12_144
+  - first:
+      213: 3905659659449081653
+    second: Sence3-Q12_145
+  - first:
+      213: 9166895883566875729
+    second: Sence3-Q12_146
+  - first:
+      213: 2669571841009910022
+    second: Sence3-Q12_147
+  - first:
+      213: -2217970225394905083
+    second: Sence3-Q12_148
+  - first:
+      213: -9200186981562903643
+    second: Sence3-Q12_149
+  - first:
+      213: 7942793560872391661
+    second: Sence3-Q12_150
+  - first:
+      213: 315985141986341380
+    second: Sence3-Q12_151
+  - first:
+      213: -8993220545815234974
+    second: Sence3-Q12_152
+  - first:
+      213: 7323391830495141356
+    second: Sence3-Q12_153
+  - first:
+      213: 3898739895070174707
+    second: Sence3-Q12_154
+  - first:
+      213: 3166492567446301780
+    second: Sence3-Q12_155
+  - first:
+      213: 8131588452066279746
+    second: Sence3-Q12_156
+  - first:
+      213: 6329259305335331616
+    second: Sence3-Q12_157
+  - first:
+      213: -4029207006007486785
+    second: Sence3-Q12_158
+  - first:
+      213: 490743819778127610
+    second: Sence3-Q12_159
+  - first:
+      213: -3596343644325947276
+    second: Sence3-Q12_160
+  - first:
+      213: 9167437102372164980
+    second: Sence3-Q12_161
+  - first:
+      213: 1644102054311055733
+    second: Sence3-Q12_162
+  - first:
+      213: 4499930083330488795
+    second: Sence3-Q12_163
+  - first:
+      213: 8112009904719862614
+    second: Sence3-Q12_164
+  - first:
+      213: -7554507146938927055
+    second: Sence3-Q12_165
+  - first:
+      213: 7968836213454850110
+    second: Sence3-Q12_166
+  - first:
+      213: 304236700285515480
+    second: Sence3-Q12_167
+  - first:
+      213: 6719149730360184614
+    second: Sence3-Q12_168
+  - first:
+      213: 4514260986215463768
+    second: Sence3-Q12_169
+  - first:
+      213: 8059277785802545284
+    second: Sence3-Q12_170
+  - first:
+      213: -7209558328955036915
+    second: Sence3-Q12_171
+  - first:
+      213: 7972468615362154886
+    second: Sence3-Q12_172
+  - first:
+      213: 7333404757154486577
+    second: Sence3-Q12_173
+  - first:
+      213: 1250184582402918808
+    second: Sence3-Q12_174
+  - first:
+      213: -7528064921168653967
+    second: Sence3-Q12_175
+  - first:
+      213: 4780242857940361319
+    second: Sence3-Q12_176
+  - first:
+      213: -4121639221892265315
+    second: Sence3-Q12_177
+  - first:
+      213: 1936139407472334008
+    second: Sence3-Q12_178
+  - first:
+      213: 5256652531059326990
+    second: Sence3-Q12_179
+  - first:
+      213: 7162788573483523449
+    second: Sence3-Q12_180
+  - first:
+      213: 5440673217700678137
+    second: Sence3-Q12_181
+  - first:
+      213: -1900889129272397754
+    second: Sence3-Q12_182
+  - first:
+      213: -5408749212027950078
+    second: Sence3-Q12_183
+  - first:
+      213: -732487344999647663
+    second: Sence3-Q12_184
+  - first:
+      213: 440583855493538417
+    second: Sence3-Q12_185
+  - first:
+      213: -3612812095923518884
+    second: Sence3-Q12_186
+  - first:
+      213: 8900512224457725536
+    second: Sence3-Q12_187
+  - first:
+      213: -5181721919050134827
+    second: Sence3-Q12_188
+  - first:
+      213: -4458632062624826264
+    second: Sence3-Q12_189
+  - first:
+      213: 2665156393859990663
+    second: Sence3-Q12_190
+  - first:
+      213: -1178278223531366802
+    second: Sence3-Q12_191
+  - first:
+      213: 7546211176301518518
+    second: Sence3-Q12_192
+  - first:
+      213: 7228468334662387941
+    second: Sence3-Q12_193
+  - first:
+      213: 4957122159358265382
+    second: Sence3-Q12_194
+  - first:
+      213: 5266472379812891268
+    second: Sence3-Q12_195
+  - first:
+      213: -9175400878678263166
+    second: Sence3-Q12_196
+  - first:
+      213: -4046775110573494521
+    second: Sence3-Q12_197
+  - first:
+      213: 7384772727565135785
+    second: Sence3-Q12_198
+  - first:
+      213: -6651138465122394480
+    second: Sence3-Q12_199
+  - first:
+      213: 198001368262406788
+    second: Sence3-Q12_200
+  - first:
+      213: -8973915705022205924
+    second: Sence3-Q12_201
+  - first:
+      213: -732176637034643297
+    second: Sence3-Q12_202
+  - first:
+      213: 5787446934113653014
+    second: Sence3-Q12_203
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sence3-Q12_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9181
+        height: 12801
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ee3b4f565395c70800000000000000
+      internalID: 8960251645643714133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_1
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 12615
+        width: 515
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381e4e479f904d7e0800000000000000
+      internalID: -1741756188872875645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_2
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 12270
+        width: 152
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edfe066b2da64ea0800000000000000
+      internalID: -5888829060832887320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_3
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 12329
+        width: 56
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fad8bc30fe9f9b0800000000000000
+      internalID: -5045739107912929464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_4
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 12270
+        width: 306
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5752ad4305665f7e0800000000000000
+      internalID: -1732365986983959179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_5
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 12465
+        width: 181
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58fd92d1dde1ee00800000000000000
+      internalID: 1072399671728404574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_6
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 12468
+        width: 340
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be0a50559953e8a0800000000000000
+      internalID: -6277074957791261006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_7
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 12669
+        width: 121
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a26d78aed72f9560800000000000000
+      internalID: 7322615356390728359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_8
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 12346
+        width: 383
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441b697f1dc559e70800000000000000
+      internalID: 9121298677180576068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_9
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 12272
+        width: 482
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d1d3cfd56d5e370800000000000000
+      internalID: 8351316783180619025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_10
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 12524
+        width: 326
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b964ff79d0b842d30800000000000000
+      internalID: 4405799225976112795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_11
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 12602
+        width: 183
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d44e5d0c7a7cb740800000000000000
+      internalID: 5169141145533301970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_12
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 12528
+        width: 164
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb4830eac2b5f310800000000000000
+      internalID: 1438252240429665210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_13
+      rect:
+        serializedVersion: 2
+        x: 4207
+        y: 12548
+        width: 207
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c9adc9caf59ec00800000000000000
+      internalID: 930379992999304339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_14
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 12530
+        width: 142
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05158622144e1480800000000000000
+      internalID: -8926622566655388406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_15
+      rect:
+        serializedVersion: 2
+        x: 4651
+        y: 12268
+        width: 433
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c2ac63b8834c050800000000000000
+      internalID: 5819838789040352262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_16
+      rect:
+        serializedVersion: 2
+        x: 5778
+        y: 12591
+        width: 405
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea8644c03bad9640800000000000000
+      internalID: 5088411379938265824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_17
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 12272
+        width: 459
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a135e604a13a02c80800000000000000
+      internalID: -8349494375999450342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_18
+      rect:
+        serializedVersion: 2
+        x: 6839
+        y: 12372
+        width: 281
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ccac28696244290800000000000000
+      internalID: -7907152617874469807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_19
+      rect:
+        serializedVersion: 2
+        x: 7122
+        y: 12268
+        width: 226
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21f767af322a2a80800000000000000
+      internalID: -8490936490666757844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_20
+      rect:
+        serializedVersion: 2
+        x: 7401
+        y: 12272
+        width: 482
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6303e56f7cd99d350800000000000000
+      internalID: 6042033857251651638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_21
+      rect:
+        serializedVersion: 2
+        x: 7940
+        y: 12270
+        width: 157
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bda93c1b5a3c8d0800000000000000
+      internalID: -2827233958149039235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_22
+      rect:
+        serializedVersion: 2
+        x: 8074
+        y: 12270
+        width: 383
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca4cdd339c68ef60800000000000000
+      internalID: 8063814512460712645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_23
+      rect:
+        serializedVersion: 2
+        x: 8570
+        y: 12557
+        width: 381
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d924e22746a80270800000000000000
+      internalID: 8217000344595737041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_24
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 12296
+        width: 348
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fd7cf5f00c25660800000000000000
+      internalID: 7373166712222900074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_25
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 12276
+        width: 482
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2205671a79025fe30800000000000000
+      internalID: 4536568035266678818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_26
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 12561
+        width: 127
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa03dfefc095eb30800000000000000
+      internalID: 4316015040660703918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_27
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 12444
+        width: 192
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5655a73322b14e00800000000000000
+      internalID: 1027298054344365658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_28
+      rect:
+        serializedVersion: 2
+        x: 5367
+        y: 12447
+        width: 114
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f88daad6bed1a50800000000000000
+      internalID: 6493605093988405130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_29
+      rect:
+        serializedVersion: 2
+        x: 5722
+        y: 12266
+        width: 513
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f8294a35a7c9070800000000000000
+      internalID: 8114495128276733792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_30
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 12270
+        width: 374
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c80ca38afd96760800000000000000
+      internalID: 7451732972094393474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_31
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 12274
+        width: 494
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de46634098186c10800000000000000
+      internalID: 2046913038525026005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_32
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 12274
+        width: 522
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bde286880431a20800000000000000
+      internalID: 3031837928758106908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_33
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 12270
+        width: 273
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e078e52610aea75c0800000000000000
+      internalID: -4216800809412819186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_34
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 12279
+        width: 290
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925788ce734ae1bf0800000000000000
+      internalID: -351663160789797591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_35
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 12429
+        width: 509
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6607f3d82ff359840800000000000000
+      internalID: 5230156853245079654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_36
+      rect:
+        serializedVersion: 2
+        x: 5989
+        y: 12268
+        width: 250
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e2a225de420abd0800000000000000
+      internalID: -2621054381425283428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_37
+      rect:
+        serializedVersion: 2
+        x: 8503
+        y: 12272
+        width: 509
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf5b21b683b517e0800000000000000
+      internalID: -1795331485357875281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_38
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 12285
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2994331f6a4d760800000000000000
+      internalID: 7481788435847025355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_39
+      rect:
+        serializedVersion: 2
+        x: 4109
+        y: 12276
+        width: 415
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b284ccc03c697c3d0800000000000000
+      internalID: -3186412446863833045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_40
+      rect:
+        serializedVersion: 2
+        x: 6829
+        y: 12268
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb587c2d08179850800000000000000
+      internalID: 6383597441680694239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_41
+      rect:
+        serializedVersion: 2
+        x: 6907
+        y: 12268
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af13a088c7890f10800000000000000
+      internalID: 2236467985187544994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_42
+      rect:
+        serializedVersion: 2
+        x: 6976
+        y: 12272
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be600a547fe267cd0800000000000000
+      internalID: -2560807698553633045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_43
+      rect:
+        serializedVersion: 2
+        x: 7048
+        y: 12272
+        width: 68
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c61f75e4ba979f60800000000000000
+      internalID: 8041065761428412097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_44
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 11428
+        width: 496
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bfa1e20a63cb3e0800000000000000
+      internalID: -2036692869882119281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_45
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 11426
+        width: 177
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6b27becfdbe61a0800000000000000
+      internalID: -6814300292185409821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_46
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 11432
+        width: 254
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2280a5d3c4095a0800000000000000
+      internalID: -6516624834417909069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_47
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 11426
+        width: 511
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c073c000eff78300800000000000000
+      internalID: 254453241520287943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_48
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 11424
+        width: 291
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b498d7255a98846c0800000000000000
+      internalID: -4158922912730085045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_49
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 11548
+        width: 60
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7c24fd3dc4f3820800000000000000
+      internalID: 2900121157917394850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_50
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 11428
+        width: 155
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352c3203101e7b6a0800000000000000
+      internalID: -6433426147456597421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_51
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 11480
+        width: 133
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64cf8ef3ec4f4a10800000000000000
+      internalID: 1895818510258390127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_52
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 11430
+        width: 204
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db40ee06f57010ee0800000000000000
+      internalID: -1296747111476493123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_53
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 11424
+        width: 146
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ca4a53ad2859480800000000000000
+      internalID: -8893058015458710370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_54
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 11634
+        width: 277
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dec84a263c2930f0800000000000000
+      internalID: -1136828819785068844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_55
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 11648
+        width: 216
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60180d56314ccf4e0800000000000000
+      internalID: -1946465351339310842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_56
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 11456
+        width: 218
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ae5b12100eaffc0800000000000000
+      internalID: -3460207068215645556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_57
+      rect:
+        serializedVersion: 2
+        x: 4237
+        y: 11426
+        width: 333
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848a36be742bf7950800000000000000
+      internalID: 6449069213379438664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_58
+      rect:
+        serializedVersion: 2
+        x: 4616
+        y: 11426
+        width: 505
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdc2432c602db790800000000000000
+      internalID: -7512812954563981903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_59
+      rect:
+        serializedVersion: 2
+        x: 5170
+        y: 11428
+        width: 509
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f02c351cac707210800000000000000
+      internalID: 1328698968606777588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_60
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 11447
+        width: 257
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de64c2a595b37e40800000000000000
+      internalID: 5653061611565641432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_61
+      rect:
+        serializedVersion: 2
+        x: 5893
+        y: 11669
+        width: 159
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363ff2f1bcc8630a0800000000000000
+      internalID: -6902174574869220509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_62
+      rect:
+        serializedVersion: 2
+        x: 5932
+        y: 11432
+        width: 299
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47506cc0ca3dcb20800000000000000
+      internalID: 3156243513593583436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_63
+      rect:
+        serializedVersion: 2
+        x: 6294
+        y: 11864
+        width: 166
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7809e6ca139f1fdf0800000000000000
+      internalID: -148063320984874873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_64
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 11674
+        width: 324
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3d2b87483ad0fb0800000000000000
+      internalID: -4679904648412081169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_65
+      rect:
+        serializedVersion: 2
+        x: 6861
+        y: 11428
+        width: 459
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b2ca6303b277d10800000000000000
+      internalID: 2123213235404155665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_66
+      rect:
+        serializedVersion: 2
+        x: 7403
+        y: 11428
+        width: 496
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b5b94cca9277c40800000000000000
+      internalID: 5509918491120720691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_67
+      rect:
+        serializedVersion: 2
+        x: 7948
+        y: 11426
+        width: 177
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8f853265f098620800000000000000
+      internalID: 2776767507885258996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_68
+      rect:
+        serializedVersion: 2
+        x: 8183
+        y: 11432
+        width: 254
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b03fb7bcb97fd50800000000000000
+      internalID: 6771051863035022146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_69
+      rect:
+        serializedVersion: 2
+        x: 6279
+        y: 11780
+        width: 196
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a041d881a998240800000000000000
+      internalID: 4794532708549397007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_70
+      rect:
+        serializedVersion: 2
+        x: 8617
+        y: 11588
+        width: 280
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc71334ed9161f260800000000000000
+      internalID: 7129587015870519247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_71
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 11603
+        width: 114
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cca2bb349047c30800000000000000
+      internalID: 4356116926081715223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_72
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 11701
+        width: 177
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c45b858f6fce08e0800000000000000
+      internalID: -1725213529347500857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_73
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 11626
+        width: 177
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71fe801cc62c0e40800000000000000
+      internalID: 5623912692571894139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_74
+      rect:
+        serializedVersion: 2
+        x: 6474
+        y: 11439
+        width: 320
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459800bae47b276a0800000000000000
+      internalID: -6452893767564228268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_75
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 11556
+        width: 435
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498234d1ffdd02900800000000000000
+      internalID: 657769633373431956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_76
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 11439
+        width: 173
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c0e94c08bbc32a0800000000000000
+      internalID: -6756319179233686404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_77
+      rect:
+        serializedVersion: 2
+        x: 8705
+        y: 11464
+        width: 106
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c9ffbaaab7686e0800000000000000
+      internalID: -1835643825146586110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_78
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 11447
+        width: 507
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664eebcd85e9a9df0800000000000000
+      internalID: -172651531202534298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_79
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 10628
+        width: 257
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f22f79e2d3754d0800000000000000
+      internalID: -3145978544367980770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_80
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 10625
+        width: 137
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcfe100a56ef6000800000000000000
+      internalID: 31496996638358710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_81
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 10628
+        width: 180
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fe8030ddc6a1470800000000000000
+      internalID: 8366118954288607093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_82
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 10625
+        width: 137
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad68e6116d18c4c0800000000000000
+      internalID: -4267128344100180571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_83
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 10886
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac6c90e90f5fa730800000000000000
+      internalID: 4012530289038093487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_84
+      rect:
+        serializedVersion: 2
+        x: 4378
+        y: 10625
+        width: 192
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5226cdf71eb118170800000000000000
+      internalID: 8178849053608272421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_85
+      rect:
+        serializedVersion: 2
+        x: 5082
+        y: 10625
+        width: 137
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aa882d1f87adfc0800000000000000
+      internalID: -3469327582920922571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_86
+      rect:
+        serializedVersion: 2
+        x: 5367
+        y: 10886
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38b41e9a664a2eb0800000000000000
+      internalID: -4743901833748760513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_87
+      rect:
+        serializedVersion: 2
+        x: 6490
+        y: 10625
+        width: 137
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8dbac1fdb786e00800000000000000
+      internalID: 1038215912297846980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_88
+      rect:
+        serializedVersion: 2
+        x: 6999
+        y: 10628
+        width: 142
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1d083cdfb1b47c0800000000000000
+      internalID: -4086141460187917873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_89
+      rect:
+        serializedVersion: 2
+        x: 7470
+        y: 10628
+        width: 41
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74522d86a27f32d0800000000000000
+      internalID: -3296790342553938817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_90
+      rect:
+        serializedVersion: 2
+        x: 7573
+        y: 10886
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257344d1589b57b10800000000000000
+      internalID: 1978691592671999826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_91
+      rect:
+        serializedVersion: 2
+        x: 8249
+        y: 10625
+        width: 137
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8117709afc17c10800000000000000
+      internalID: 2049647630311561397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_92
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 10628
+        width: 308
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6113a0d010d60d4d0800000000000000
+      internalID: -3111867491231846122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_93
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 10625
+        width: 208
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe85959815b460e0800000000000000
+      internalID: -2277496394349179145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_94
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 10628
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93751d0c7cc81c5e0800000000000000
+      internalID: -1891075578957572295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_95
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 10547
+        width: 197
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b30ea4187e8b020800000000000000
+      internalID: 2357888947421461325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_96
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 10625
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d768ec2d951773a60800000000000000
+      internalID: 7653710722342225533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_97
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 10628
+        width: 308
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa4ba60177b019c0800000000000000
+      internalID: -3958462376387589384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_98
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 10625
+        width: 208
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bf4528df725d950800000000000000
+      internalID: 6473124009181772651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_99
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 10625
+        width: 148
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a44d36940afc4280800000000000000
+      internalID: -9057589852941499224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_100
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 10625
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a4c6f049b683fe0800000000000000
+      internalID: -1209098216290891244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_101
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 10628
+        width: 199
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a9399a6cfadd8b0800000000000000
+      internalID: -5125747533094348212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_102
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 10628
+        width: 41
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237e0511841c78b40800000000000000
+      internalID: 5442531189972854578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_103
+      rect:
+        serializedVersion: 2
+        x: 4623
+        y: 10625
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df71a51ae02a50310800000000000000
+      internalID: 1370679845324462077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_104
+      rect:
+        serializedVersion: 2
+        x: 4868
+        y: 10628
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78fc2f5d73e57670800000000000000
+      internalID: 8535978796357843068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_105
+      rect:
+        serializedVersion: 2
+        x: 5371
+        y: 10628
+        width: 41
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c366adad155c960800000000000000
+      internalID: 7621587944803286063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_106
+      rect:
+        serializedVersion: 2
+        x: 5478
+        y: 10628
+        width: 308
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08cdf7928134a400800000000000000
+      internalID: 334446709297760270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_107
+      rect:
+        serializedVersion: 2
+        x: 5851
+        y: 10547
+        width: 192
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bb1b19c2e7f0720800000000000000
+      internalID: 2814607022017854260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_108
+      rect:
+        serializedVersion: 2
+        x: 6082
+        y: 10625
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4168ad55fafb64690800000000000000
+      internalID: -7618190959870048748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_109
+      rect:
+        serializedVersion: 2
+        x: 6306
+        y: 10625
+        width: 165
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6acc30400080ec0800000000000000
+      internalID: -3600627884839098630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_110
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 10625
+        width: 208
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a2cece9a72dbef0800000000000000
+      internalID: -90872806699685224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_111
+      rect:
+        serializedVersion: 2
+        x: 7259
+        y: 10625
+        width: 165
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a75bda617ae9530800000000000000
+      internalID: 3863709246175935070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_112
+      rect:
+        serializedVersion: 2
+        x: 7577
+        y: 10628
+        width: 41
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43c93e7de1323ef0800000000000000
+      internalID: -129986543145598130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_113
+      rect:
+        serializedVersion: 2
+        x: 7684
+        y: 10628
+        width: 308
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07da5f3186c289c0800000000000000
+      internalID: -3926357666697652465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_114
+      rect:
+        serializedVersion: 2
+        x: 8043
+        y: 10625
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cbee9c31f33e010800000000000000
+      internalID: 1216885678544960534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_115
+      rect:
+        serializedVersion: 2
+        x: 8415
+        y: 10625
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e8d22eebcc2e2d0800000000000000
+      internalID: -3250810860797587863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_116
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 10074
+        width: 180
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb71b00dadf20010800000000000000
+      internalID: 1153763374043069409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_117
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 10332
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cb15e8527bffc80800000000000000
+      internalID: -8286703417409029033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_118
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 10074
+        width: 41
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78954922c9b24bf0800000000000000
+      internalID: -341506378159515522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_119
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 10071
+        width: 192
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6326ebe1bc699e270800000000000000
+      internalID: 8280315189035688502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_120
+      rect:
+        serializedVersion: 2
+        x: 3805
+        y: 10074
+        width: 41
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cbd95d53fc44650800000000000000
+      internalID: 6216321215802227777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_121
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 10332
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee165333c353e330800000000000000
+      internalID: 3738924213492653796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_122
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 10074
+        width: 390
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29560ce23f4d14d30800000000000000
+      internalID: 4414043250726299026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_123
+      rect:
+        serializedVersion: 2
+        x: 6315
+        y: 10074
+        width: 180
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dcb68c8d1951920800000000000000
+      internalID: 2960432690327440784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_124
+      rect:
+        serializedVersion: 2
+        x: 6557
+        y: 10332
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfdf4c196c6c1d60800000000000000
+      internalID: 7862278248184405938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_125
+      rect:
+        serializedVersion: 2
+        x: 6865
+        y: 10074
+        width: 180
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4080a8fe710f9f0800000000000000
+      internalID: -436822846274534236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_126
+      rect:
+        serializedVersion: 2
+        x: 7436
+        y: 10074
+        width: 142
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c600909a0fbbca80800000000000000
+      internalID: -8445446624107297085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_127
+      rect:
+        serializedVersion: 2
+        x: 7683
+        y: 10071
+        width: 137
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46d16b223c5a0ef0800000000000000
+      internalID: -141199067762796978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_128
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 10074
+        width: 180
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1131bf1f7a5402f70800000000000000
+      internalID: 9160398229693207313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_129
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 10071
+        width: 165
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198021ca4f58567e0800000000000000
+      internalID: -1772863592395044719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_130
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 10071
+        width: 172
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cffaf4e6b2ae2230800000000000000
+      internalID: 3616006457234489284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_131
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 10074
+        width: 180
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0eda0b29232bbbc0800000000000000
+      internalID: -3766378003642524145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_132
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 9992
+        width: 197
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9854b2b80189a7020800000000000000
+      internalID: 2340350153194161545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_133
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 10071
+        width: 192
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc546ef7e981de860800000000000000
+      internalID: 7560726418454627788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_134
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 10074
+        width: 41
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586acc5d96020bf80800000000000000
+      internalID: -8092932891454167419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_135
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 10071
+        width: 148
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86682d41d0500080800000000000000
+      internalID: -9223283176981895539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_136
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 9992
+        width: 197
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fd4f8135436b170800000000000000
+      internalID: 8193794103552827191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_137
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 10071
+        width: 208
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d980f2d1e238c00800000000000000
+      internalID: 901615053282254116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_138
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 10071
+        width: 172
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48fbaeb1dd5c27e0800000000000000
+      internalID: -1788951796544440245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_139
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 10074
+        width: 312
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f136f4a2f99d23e20800000000000000
+      internalID: 3328962352213091103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_140
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 10071
+        width: 172
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fcab6077df05130800000000000000
+      internalID: 3553618793651162936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_141
+      rect:
+        serializedVersion: 2
+        x: 4569
+        y: 10074
+        width: 123
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9912fc1db5c16e800800000000000000
+      internalID: 641231177634488729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_142
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 10074
+        width: 308
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acad101a779dc690800000000000000
+      internalID: -7580236047282492248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_143
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 10074
+        width: 41
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e35410ca38a303d0800000000000000
+      internalID: -3241562336492497951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_144
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 10074
+        width: 180
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5a779d3c71cae60800000000000000
+      internalID: 7974775170100864417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_145
+      rect:
+        serializedVersion: 2
+        x: 5435
+        y: 9992
+        width: 197
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f190764c0b33630800000000000000
+      internalID: 3905659659449081653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_146
+      rect:
+        serializedVersion: 2
+        x: 5677
+        y: 10073
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1548ef0ec3b573f70800000000000000
+      internalID: 9166895883566875729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_147
+      rect:
+        serializedVersion: 2
+        x: 6561
+        y: 10074
+        width: 41
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60108c502793c0520800000000000000
+      internalID: 2669571841009910022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_148
+      rect:
+        serializedVersion: 2
+        x: 6654
+        y: 10071
+        width: 165
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50091f0d4df2831e0800000000000000
+      internalID: -2217970225394905083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_149
+      rect:
+        serializedVersion: 2
+        x: 7202
+        y: 10071
+        width: 208
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a315c85fae525080800000000000000
+      internalID: -9200186981562903643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_150
+      rect:
+        serializedVersion: 2
+        x: 8098
+        y: 10071
+        width: 192
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de31f0039a87a3e60800000000000000
+      internalID: 7942793560872391661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_151
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 9517
+        width: 142
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402b56effca926400800000000000000
+      internalID: 315985141986341380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_152
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 9517
+        width: 41
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26630fbcf89a13380800000000000000
+      internalID: -8993220545815234974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_153
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 9517
+        width: 41
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced19af911ae1a560800000000000000
+      internalID: 7323391830495141356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_154
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 9775
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd2d45374b1b1630800000000000000
+      internalID: 3898739895070174707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_155
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 9517
+        width: 180
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c2d8a9634a1fb20800000000000000
+      internalID: 3166492567446301780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_156
+      rect:
+        serializedVersion: 2
+        x: 7286
+        y: 9775
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24144193d9439d070800000000000000
+      internalID: 8131588452066279746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_157
+      rect:
+        serializedVersion: 2
+        x: 7384
+        y: 9514
+        width: 192
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b19d9edcb06d750800000000000000
+      internalID: 6329259305335331616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_158
+      rect:
+        serializedVersion: 2
+        x: 8875
+        y: 9517
+        width: 142
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6986063916518c0800000000000000
+      internalID: -4029207006007486785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_159
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 9514
+        width: 208
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6f79d67e87fc600800000000000000
+      internalID: 490743819778127610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_160
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 9514
+        width: 208
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478d7bd7288371ec0800000000000000
+      internalID: -3596343644325947276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_161
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 9517
+        width: 312
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47511a33977493f70800000000000000
+      internalID: 9167437102372164980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_162
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 9517
+        width: 41
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57153b98b1601d610800000000000000
+      internalID: 1644102054311055733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_163
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 9517
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9f103b196f27e30800000000000000
+      internalID: 4499930083330488795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_164
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 9436
+        width: 197
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b17417706a39070800000000000000
+      internalID: 8112009904719862614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_165
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 9436
+        width: 192
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1383e8d76cff82790800000000000000
+      internalID: -7554507146938927055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_166
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 9514
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38ce30c05ef69e60800000000000000
+      internalID: 7968836213454850110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_167
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 9517
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6b720caadd83400800000000000000
+      internalID: 304236700285515480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_168
+      rect:
+        serializedVersion: 2
+        x: 3005
+        y: 9514
+        width: 208
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fc7c684173f3d50800000000000000
+      internalID: 6719149730360184614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_169
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 9517
+        width: 308
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bf6ca0370e5ae30800000000000000
+      internalID: 4514260986215463768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_170
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 9514
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48815f0427e48df60800000000000000
+      internalID: 8059277785802545284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_171
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 9517
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b1d2fc5e082fb90800000000000000
+      internalID: -7209558328955036915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_172
+      rect:
+        serializedVersion: 2
+        x: 4102
+        y: 9514
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6819c9937f5e3ae60800000000000000
+      internalID: 7972468615362154886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_173
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 9514
+        width: 165
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1395a58c5cc75c560800000000000000
+      internalID: 7333404757154486577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_174
+      rect:
+        serializedVersion: 2
+        x: 4624
+        y: 9514
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899cbc1014c895110800000000000000
+      internalID: 1250184582402918808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_175
+      rect:
+        serializedVersion: 2
+        x: 4862
+        y: 9517
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171d9afe6d0f68790800000000000000
+      internalID: -7528064921168653967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_176
+      rect:
+        serializedVersion: 2
+        x: 5196
+        y: 9514
+        width: 148
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76022af6d85d65240800000000000000
+      internalID: 4780242857940361319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_177
+      rect:
+        serializedVersion: 2
+        x: 5382
+        y: 9514
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a4bce07fefcc6c0800000000000000
+      internalID: -4121639221892265315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_178
+      rect:
+        serializedVersion: 2
+        x: 5627
+        y: 9517
+        width: 123
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b41602788c8eda10800000000000000
+      internalID: 1936139407472334008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_179
+      rect:
+        serializedVersion: 2
+        x: 5767
+        y: 9517
+        width: 199
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00037540a163f840800000000000000
+      internalID: 5256652531059326990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_180
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 9514
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d56bbe146576360800000000000000
+      internalID: 7162788573483523449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_181
+      rect:
+        serializedVersion: 2
+        x: 6324
+        y: 9514
+        width: 172
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9c7003777218b40800000000000000
+      internalID: 5440673217700678137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_182
+      rect:
+        serializedVersion: 2
+        x: 6546
+        y: 9514
+        width: 148
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6403154886fae95e0800000000000000
+      internalID: -1900889129272397754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_183
+      rect:
+        serializedVersion: 2
+        x: 6837
+        y: 9514
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c66e99f3340f4b0800000000000000
+      internalID: -5408749212027950078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_184
+      rect:
+        serializedVersion: 2
+        x: 7052
+        y: 9517
+        width: 199
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156b3def3aea5d5f0800000000000000
+      internalID: -732487344999647663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_185
+      rect:
+        serializedVersion: 2
+        x: 7290
+        y: 9517
+        width: 41
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172e678aea44d1600800000000000000
+      internalID: 440583855493538417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_186
+      rect:
+        serializedVersion: 2
+        x: 7630
+        y: 9514
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c528e3e4a86bcddc0800000000000000
+      internalID: -3612812095923518884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_187
+      rect:
+        serializedVersion: 2
+        x: 7875
+        y: 9517
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06613d116b8f48b70800000000000000
+      internalID: 8900512224457725536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_188
+      rect:
+        serializedVersion: 2
+        x: 8106
+        y: 9514
+        width: 165
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da492a5e53d618b0800000000000000
+      internalID: -5181721919050134827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_189
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 9514
+        width: 192
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c741b03c1cf12c0800000000000000
+      internalID: -4458632062624826264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_190
+      rect:
+        serializedVersion: 2
+        x: 8641
+        y: 9514
+        width: 208
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784c2ee9e998cf420800000000000000
+      internalID: 2665156393859990663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_191
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 9220
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66a5dfc23ae5afe0800000000000000
+      internalID: -1178278223531366802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_192
+      rect:
+        serializedVersion: 2
+        x: 5341
+        y: 9041
+        width: 167
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bed883551789b860800000000000000
+      internalID: 7546211176301518518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_193
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 8962
+        width: 312
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e806bdf6ada05460800000000000000
+      internalID: 7228468334662387941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_194
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8959
+        width: 172
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62844c8075c3bc440800000000000000
+      internalID: 4957122159358265382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_195
+      rect:
+        serializedVersion: 2
+        x: 4238
+        y: 8962
+        width: 123
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a472af9b4461940800000000000000
+      internalID: 5266472379812891268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_196
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 8962
+        width: 308
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a3392a38d6aa080800000000000000
+      internalID: -9175400878678263166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_197
+      rect:
+        serializedVersion: 2
+        x: 4773
+        y: 8962
+        width: 41
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fef584a77f6d7c0800000000000000
+      internalID: -4046775110573494521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_198
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 8962
+        width: 180
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af23856babfb7660800000000000000
+      internalID: 7384772727565135785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_199
+      rect:
+        serializedVersion: 2
+        x: 5103
+        y: 8880
+        width: 197
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e51722ec862b3a0800000000000000
+      internalID: -6651138465122394480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_200
+      rect:
+        serializedVersion: 2
+        x: 5385
+        y: 8961
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482725402317fb200800000000000000
+      internalID: 198001368262406788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_201
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 6037
+        width: 7513
+        height: 2620
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c103add463f367380800000000000000
+      internalID: -8973915705022205924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_202
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 3227
+        width: 7513
+        height: 2619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90c5b45a39c6d5f0800000000000000
+      internalID: -732176637034643297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sence3-Q12_203
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 0
+        width: 7513
+        height: 3036
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6119448c254215050800000000000000
+      internalID: 5787446934113653014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 131ce40dcdb02a047bc1870ff5d23f67
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sence3-Q12_0: 8960251645643714133
+      Sence3-Q12_1: -1741756188872875645
+      Sence3-Q12_10: 4405799225976112795
+      Sence3-Q12_100: -1209098216290891244
+      Sence3-Q12_101: -5125747533094348212
+      Sence3-Q12_102: 5442531189972854578
+      Sence3-Q12_103: 1370679845324462077
+      Sence3-Q12_104: 8535978796357843068
+      Sence3-Q12_105: 7621587944803286063
+      Sence3-Q12_106: 334446709297760270
+      Sence3-Q12_107: 2814607022017854260
+      Sence3-Q12_108: -7618190959870048748
+      Sence3-Q12_109: -3600627884839098630
+      Sence3-Q12_11: 5169141145533301970
+      Sence3-Q12_110: -90872806699685224
+      Sence3-Q12_111: 3863709246175935070
+      Sence3-Q12_112: -129986543145598130
+      Sence3-Q12_113: -3926357666697652465
+      Sence3-Q12_114: 1216885678544960534
+      Sence3-Q12_115: -3250810860797587863
+      Sence3-Q12_116: 1153763374043069409
+      Sence3-Q12_117: -8286703417409029033
+      Sence3-Q12_118: -341506378159515522
+      Sence3-Q12_119: 8280315189035688502
+      Sence3-Q12_12: 1438252240429665210
+      Sence3-Q12_120: 6216321215802227777
+      Sence3-Q12_121: 3738924213492653796
+      Sence3-Q12_122: 4414043250726299026
+      Sence3-Q12_123: 2960432690327440784
+      Sence3-Q12_124: 7862278248184405938
+      Sence3-Q12_125: -436822846274534236
+      Sence3-Q12_126: -8445446624107297085
+      Sence3-Q12_127: -141199067762796978
+      Sence3-Q12_128: 9160398229693207313
+      Sence3-Q12_129: -1772863592395044719
+      Sence3-Q12_13: 930379992999304339
+      Sence3-Q12_130: 3616006457234489284
+      Sence3-Q12_131: -3766378003642524145
+      Sence3-Q12_132: 2340350153194161545
+      Sence3-Q12_133: 7560726418454627788
+      Sence3-Q12_134: -8092932891454167419
+      Sence3-Q12_135: -9223283176981895539
+      Sence3-Q12_136: 8193794103552827191
+      Sence3-Q12_137: 901615053282254116
+      Sence3-Q12_138: -1788951796544440245
+      Sence3-Q12_139: 3328962352213091103
+      Sence3-Q12_14: -8926622566655388406
+      Sence3-Q12_140: 3553618793651162936
+      Sence3-Q12_141: 641231177634488729
+      Sence3-Q12_142: -7580236047282492248
+      Sence3-Q12_143: -3241562336492497951
+      Sence3-Q12_144: 7974775170100864417
+      Sence3-Q12_145: 3905659659449081653
+      Sence3-Q12_146: 9166895883566875729
+      Sence3-Q12_147: 2669571841009910022
+      Sence3-Q12_148: -2217970225394905083
+      Sence3-Q12_149: -9200186981562903643
+      Sence3-Q12_15: 5819838789040352262
+      Sence3-Q12_150: 7942793560872391661
+      Sence3-Q12_151: 315985141986341380
+      Sence3-Q12_152: -8993220545815234974
+      Sence3-Q12_153: 7323391830495141356
+      Sence3-Q12_154: 3898739895070174707
+      Sence3-Q12_155: 3166492567446301780
+      Sence3-Q12_156: 8131588452066279746
+      Sence3-Q12_157: 6329259305335331616
+      Sence3-Q12_158: -4029207006007486785
+      Sence3-Q12_159: 490743819778127610
+      Sence3-Q12_16: 5088411379938265824
+      Sence3-Q12_160: -3596343644325947276
+      Sence3-Q12_161: 9167437102372164980
+      Sence3-Q12_162: 1644102054311055733
+      Sence3-Q12_163: 4499930083330488795
+      Sence3-Q12_164: 8112009904719862614
+      Sence3-Q12_165: -7554507146938927055
+      Sence3-Q12_166: 7968836213454850110
+      Sence3-Q12_167: 304236700285515480
+      Sence3-Q12_168: 6719149730360184614
+      Sence3-Q12_169: 4514260986215463768
+      Sence3-Q12_17: -8349494375999450342
+      Sence3-Q12_170: 8059277785802545284
+      Sence3-Q12_171: -7209558328955036915
+      Sence3-Q12_172: 7972468615362154886
+      Sence3-Q12_173: 7333404757154486577
+      Sence3-Q12_174: 1250184582402918808
+      Sence3-Q12_175: -7528064921168653967
+      Sence3-Q12_176: 4780242857940361319
+      Sence3-Q12_177: -4121639221892265315
+      Sence3-Q12_178: 1936139407472334008
+      Sence3-Q12_179: 5256652531059326990
+      Sence3-Q12_18: -7907152617874469807
+      Sence3-Q12_180: 7162788573483523449
+      Sence3-Q12_181: 5440673217700678137
+      Sence3-Q12_182: -1900889129272397754
+      Sence3-Q12_183: -5408749212027950078
+      Sence3-Q12_184: -732487344999647663
+      Sence3-Q12_185: 440583855493538417
+      Sence3-Q12_186: -3612812095923518884
+      Sence3-Q12_187: 8900512224457725536
+      Sence3-Q12_188: -5181721919050134827
+      Sence3-Q12_189: -4458632062624826264
+      Sence3-Q12_19: -8490936490666757844
+      Sence3-Q12_190: 2665156393859990663
+      Sence3-Q12_191: -1178278223531366802
+      Sence3-Q12_192: 7546211176301518518
+      Sence3-Q12_193: 7228468334662387941
+      Sence3-Q12_194: 4957122159358265382
+      Sence3-Q12_195: 5266472379812891268
+      Sence3-Q12_196: -9175400878678263166
+      Sence3-Q12_197: -4046775110573494521
+      Sence3-Q12_198: 7384772727565135785
+      Sence3-Q12_199: -6651138465122394480
+      Sence3-Q12_2: -5888829060832887320
+      Sence3-Q12_20: 6042033857251651638
+      Sence3-Q12_200: 198001368262406788
+      Sence3-Q12_201: -8973915705022205924
+      Sence3-Q12_202: -732176637034643297
+      Sence3-Q12_203: 5787446934113653014
+      Sence3-Q12_21: -2827233958149039235
+      Sence3-Q12_22: 8063814512460712645
+      Sence3-Q12_23: 8217000344595737041
+      Sence3-Q12_24: 7373166712222900074
+      Sence3-Q12_25: 4536568035266678818
+      Sence3-Q12_26: 4316015040660703918
+      Sence3-Q12_27: 1027298054344365658
+      Sence3-Q12_28: 6493605093988405130
+      Sence3-Q12_29: 8114495128276733792
+      Sence3-Q12_3: -5045739107912929464
+      Sence3-Q12_30: 7451732972094393474
+      Sence3-Q12_31: 2046913038525026005
+      Sence3-Q12_32: 3031837928758106908
+      Sence3-Q12_33: -4216800809412819186
+      Sence3-Q12_34: -351663160789797591
+      Sence3-Q12_35: 5230156853245079654
+      Sence3-Q12_36: -2621054381425283428
+      Sence3-Q12_37: -1795331485357875281
+      Sence3-Q12_38: 7481788435847025355
+      Sence3-Q12_39: -3186412446863833045
+      Sence3-Q12_4: -1732365986983959179
+      Sence3-Q12_40: 6383597441680694239
+      Sence3-Q12_41: 2236467985187544994
+      Sence3-Q12_42: -2560807698553633045
+      Sence3-Q12_43: 8041065761428412097
+      Sence3-Q12_44: -2036692869882119281
+      Sence3-Q12_45: -6814300292185409821
+      Sence3-Q12_46: -6516624834417909069
+      Sence3-Q12_47: 254453241520287943
+      Sence3-Q12_48: -4158922912730085045
+      Sence3-Q12_49: 2900121157917394850
+      Sence3-Q12_5: 1072399671728404574
+      Sence3-Q12_50: -6433426147456597421
+      Sence3-Q12_51: 1895818510258390127
+      Sence3-Q12_52: -1296747111476493123
+      Sence3-Q12_53: -8893058015458710370
+      Sence3-Q12_54: -1136828819785068844
+      Sence3-Q12_55: -1946465351339310842
+      Sence3-Q12_56: -3460207068215645556
+      Sence3-Q12_57: 6449069213379438664
+      Sence3-Q12_58: -7512812954563981903
+      Sence3-Q12_59: 1328698968606777588
+      Sence3-Q12_6: -6277074957791261006
+      Sence3-Q12_60: 5653061611565641432
+      Sence3-Q12_61: -6902174574869220509
+      Sence3-Q12_62: 3156243513593583436
+      Sence3-Q12_63: -148063320984874873
+      Sence3-Q12_64: -4679904648412081169
+      Sence3-Q12_65: 2123213235404155665
+      Sence3-Q12_66: 5509918491120720691
+      Sence3-Q12_67: 2776767507885258996
+      Sence3-Q12_68: 6771051863035022146
+      Sence3-Q12_69: 4794532708549397007
+      Sence3-Q12_7: 7322615356390728359
+      Sence3-Q12_70: 7129587015870519247
+      Sence3-Q12_71: 4356116926081715223
+      Sence3-Q12_72: -1725213529347500857
+      Sence3-Q12_73: 5623912692571894139
+      Sence3-Q12_74: -6452893767564228268
+      Sence3-Q12_75: 657769633373431956
+      Sence3-Q12_76: -6756319179233686404
+      Sence3-Q12_77: -1835643825146586110
+      Sence3-Q12_78: -172651531202534298
+      Sence3-Q12_79: -3145978544367980770
+      Sence3-Q12_8: 9121298677180576068
+      Sence3-Q12_80: 31496996638358710
+      Sence3-Q12_81: 8366118954288607093
+      Sence3-Q12_82: -4267128344100180571
+      Sence3-Q12_83: 4012530289038093487
+      Sence3-Q12_84: 8178849053608272421
+      Sence3-Q12_85: -3469327582920922571
+      Sence3-Q12_86: -4743901833748760513
+      Sence3-Q12_87: 1038215912297846980
+      Sence3-Q12_88: -4086141460187917873
+      Sence3-Q12_89: -3296790342553938817
+      Sence3-Q12_9: 8351316783180619025
+      Sence3-Q12_90: 1978691592671999826
+      Sence3-Q12_91: 2049647630311561397
+      Sence3-Q12_92: -3111867491231846122
+      Sence3-Q12_93: -2277496394349179145
+      Sence3-Q12_94: -1891075578957572295
+      Sence3-Q12_95: 2357888947421461325
+      Sence3-Q12_96: 7653710722342225533
+      Sence3-Q12_97: -3958462376387589384
+      Sence3-Q12_98: 6473124009181772651
+      Sence3-Q12_99: -9057589852941499224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
