@@ -4,12 +4,7 @@ public class NoticeController : MonoBehaviour
 {
     [SerializeField] private Sprite _correct;
     [SerializeField] private Sprite[] _wrongList;
-    private SpriteRenderer _spriteRenderer;
-
-    private void OnEnable()
-    {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+    [SerializeField] private SpriteRenderer _spriteRenderer;
 
     public void Hide()
     {
