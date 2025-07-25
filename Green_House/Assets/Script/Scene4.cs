@@ -1,8 +1,14 @@
 using UnityEngine;
 
-public class Scene4 : MonoBehaviour
+public class Scene4 : MonoBehaviour, TimerController
 {
     [SerializeField] private GameManager _gameManager;
+    [SerializeField] private Timer _timer;
+
+    private void OnEnable()
+    {
+        _timer.StartTimer();
+    }
 
     void Update()
     {
@@ -14,5 +20,10 @@ public class Scene4 : MonoBehaviour
         {
             _gameManager.SenceChange(6);
         }
+    }
+
+    public void TimeOut(int timeOutID)
+    {
+        _gameManager.SenceChange(1);
     }
 }
