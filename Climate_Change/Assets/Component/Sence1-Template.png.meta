@@ -103,12 +103,12 @@ TextureImporter:
       name: Sence1-Template_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 13699
-        height: 23484
+        x: 377
+        y: 1395
+        width: 11976
+        height: 21310
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aad3f58773962924489c962c60f7e517
     internalID: 0
     vertices: []
     indices: 

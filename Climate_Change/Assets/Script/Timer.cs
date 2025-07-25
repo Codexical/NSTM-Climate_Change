@@ -2,6 +2,11 @@ using UnityEngine;
 using System.Collections;
 using TMPro;
 
+public interface TimerController
+{
+    void TimeOut();
+}
+
 public class Timer : MonoBehaviour
 {
     [SerializeField] private MonoBehaviour _parentComponent;
