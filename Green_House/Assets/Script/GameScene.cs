@@ -11,6 +11,12 @@ public class GameScene : MonoBehaviour, TimerController
     [SerializeField] private Question _questionPanel;
     [SerializeField] private Task[] _tasks;
     [SerializeField] private int[] _answers;
+    [SerializeField] private AudioClip _correctSound;
+    [SerializeField] private AudioClip _errorSound;
+    [SerializeField] private AudioClip _successSound;
+    [SerializeField] private AudioClip _failedSound;
+    [SerializeField] private AudioClip _timeOutSound;
+    [SerializeField] private AudioSource _audioSource;
     private int[] answerList = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     private int _nowIndex = 0;
     private bool _isSelected = false;
@@ -47,6 +53,7 @@ public class GameScene : MonoBehaviour, TimerController
         {
             if (_isConnect)
             {
+                _audioSource.PlayOneShot(_successSound);
                 _isFinish = true;
                 _questionPanel.GameSuccess();
                 _endGameTimer.StartTimer();
@@ -54,6 +61,7 @@ public class GameScene : MonoBehaviour, TimerController
             }
             if (_isFinish)
             {
+                _audioSource.PlayOneShot(_failedSound);
                 _isFinish = true;
                 _questionPanel.GameFailed();
                 _endGameTimer.StartTimer();
@@ -72,6 +80,7 @@ public class GameScene : MonoBehaviour, TimerController
                 if (!_isAnswered && !_isConnect)
                 {
                     _noticeTimer.Hide();
+                    _audioSource.PlayOneShot(_failedSound);
                     _questionPanel.GameFailed();
                     _endGameTimer.StartTimer();
                 }
@@ -79,6 +88,7 @@ public class GameScene : MonoBehaviour, TimerController
         }
         else if (timeOutID == 4)
         {
+            _audioSource.PlayOneShot(_timeOutSound);
         }
         else if (timeOutID == 5)
         {
@@ -119,12 +129,14 @@ public class GameScene : MonoBehaviour, TimerController
         _taskTimer.Hide();
         if (answerIndex == _answers[_nowIndex - 1])
         {
+            _audioSource.PlayOneShot(_correctSound);
             answerList[_nowIndex - 1] = 1;
             _questionPanel.ShowCorrect(_nowIndex - 1);
             _tasks[_nowIndex - 1].ShowCorrect();
         }
         else
         {
+            _audioSource.PlayOneShot(_errorSound);
             answerList[_nowIndex - 1] = -1;
             _questionPanel.ShowError(_nowIndex - 1);
             _tasks[_nowIndex - 1].ShowError();
