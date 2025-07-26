@@ -6,6 +6,8 @@ public class GameScene : MonoBehaviour, TimerController
     [SerializeField] private Timer _timer;
     [SerializeField] private Timer _taskTimer;
     [SerializeField] private Timer _noticeTimer;
+    [SerializeField] private Timer _timeOutTimer;
+    [SerializeField] private Timer _endGameTimer;
     [SerializeField] private Question _questionPanel;
     [SerializeField] private Task[] _tasks;
     [SerializeField] private int[] _answers;
@@ -14,6 +16,7 @@ public class GameScene : MonoBehaviour, TimerController
     private bool _isSelected = false;
     private bool _isAnswered = false;
     private bool _isFinish = false;
+    private bool _isConnect = false;
 
     private void OnEnable()
     {
@@ -21,6 +24,7 @@ public class GameScene : MonoBehaviour, TimerController
         _isSelected = false;
         _isAnswered = false;
         _isFinish = false;
+        _isConnect = false;
 
         _questionPanel.Hide();
         foreach (var task in _tasks)
@@ -30,6 +34,7 @@ public class GameScene : MonoBehaviour, TimerController
         _taskTimer.Hide();
         _noticeTimer.StopTimer();
         _timer.StartTimer();
+        _timeOutTimer.StartTimer();
     }
 
     public void TimeOut(int timeOutID)
@@ -40,17 +45,18 @@ public class GameScene : MonoBehaviour, TimerController
         }
         else if (timeOutID == 2) // Notice timer timeout
         {
-            if (_isFinish)
-            {
-                Debug.Log("Game finished.");
-                _gameManager.SenceChange(1);
-                return;
-            }
-            if (checkConnected())
+            if (_isConnect)
             {
                 _isFinish = true;
                 _questionPanel.GameSuccess();
-                _noticeTimer.StartTimer();
+                _endGameTimer.StartTimer();
+                return;
+            }
+            if (_isFinish)
+            {
+                _isFinish = true;
+                _questionPanel.GameFailed();
+                _endGameTimer.StartTimer();
                 return;
             }
             _questionPanel.Hide();
@@ -60,10 +66,28 @@ public class GameScene : MonoBehaviour, TimerController
         }
         else if (timeOutID == 3)
         {
-            _questionPanel.GameFailed();
-            _isFinish = true;
-            _noticeTimer.StartTimer();
+            if (!_isFinish)
+            {
+                _isFinish = true;
+                if (!_isAnswered && !_isConnect)
+                {
+                    _noticeTimer.Hide();
+                    _questionPanel.GameFailed();
+                    _endGameTimer.StartTimer();
+                }
+            }
         }
+        else if (timeOutID == 4)
+        {
+        }
+        else if (timeOutID == 5)
+        {
+            if (_isFinish)
+            {
+                _gameManager.SenceChange(1);
+            }
+        }
+
     }
 
     public bool checkConnected()
@@ -104,6 +128,10 @@ public class GameScene : MonoBehaviour, TimerController
             answerList[_nowIndex - 1] = -1;
             _questionPanel.ShowError(_nowIndex - 1);
             _tasks[_nowIndex - 1].ShowError();
+        }
+        if (checkConnected())
+        {
+            _isConnect = true;
         }
         _noticeTimer.StartTimer();
     }
