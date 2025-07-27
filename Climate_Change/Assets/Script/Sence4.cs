@@ -10,6 +10,9 @@ public class Sence4 : MonoBehaviour, TimerController
     [SerializeField] private TextMeshPro _successTextObject;
     [SerializeField] private GameObject _failedObject;
     [SerializeField] private TextMeshPro _failedTextObject;
+    [SerializeField] private AudioClip _successSound;
+    [SerializeField] private AudioClip _failedSound;
+    [SerializeField] private AudioSource _audioSource;
 
     private void OnEnable()
     {
@@ -23,11 +26,13 @@ public class Sence4 : MonoBehaviour, TimerController
         _gameObject.SetActive(false);
         if (score >= 3)
         {
+            _audioSource.PlayOneShot(_successSound);
             _successObject.SetActive(true);
             _successTextObject.text = $"{score * 20}";
         }
         else
         {
+            _audioSource.PlayOneShot(_failedSound);
             _failedObject.SetActive(true);
             _failedTextObject.text = $"{score * 20}";
         }

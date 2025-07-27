@@ -10,6 +10,9 @@ public class GameController : MonoBehaviour, TimerController
     [SerializeField] private Score _scoreController;
     [SerializeField] private Timer _gameTimer;
     [SerializeField] private Timer _noticeTimer;
+    [SerializeField] private AudioClip _correctSound;
+    [SerializeField] private AudioClip _errorSound;
+    [SerializeField] private AudioSource _audioSource;
     private int[] answers = { 1, 2, 1, 3, 2, 1, 1, 3, 1, 1, 2, 3, 3, 1, 1, 2, 3, 1, 1, 3 };
     private int[] correctList = { 0, 0, 0, 0, 0 };
     private List<int> answerList = new List<int>();
@@ -59,11 +62,13 @@ public class GameController : MonoBehaviour, TimerController
         _gameTimer.StopTimer();
         if (selected == answers[_nowIndex])
         {
+            _audioSource.PlayOneShot(_correctSound);
             correctList[_questionsCount - 1] = 1;
             _noticeController.AnswerCorrect();
         }
         else
         {
+            _audioSource.PlayOneShot(_errorSound);
             correctList[_questionsCount - 1] = 2;
             _noticeController.AnswerWrong(_nowIndex);
         }

@@ -16,6 +16,11 @@ public class Timer : MonoBehaviour
     private float _timeRemaining;
     private bool _isTimerRunning = false;
 
+    public void OnDisable()
+    {
+        _isTimerRunning = false;
+    }
+
     public void StartTimer()
     {
         _timeRemaining = _timeLimit + 1f;
