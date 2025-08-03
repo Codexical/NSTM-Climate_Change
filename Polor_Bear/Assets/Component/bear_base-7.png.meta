@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 275384fd90713924e811e7a577895e25
+guid: 484a46be1f1dde346b5a768364ec96d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8762333550453302753
-    second: bear_hit-5_0
-  - first:
-      213: -7243489246158662303
-    second: bear_hit-5_1
-  - first:
-      213: 1519619405617735487
-    second: bear_hit-5_2
+      213: -8245520441625405368
+    second: bear_base-7_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bear_hit-5_0
+      name: bear_base-7_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,28 +108,6 @@ TextureImporter:
         width: 2232
         height: 2181
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e5a14670ff0a9970800000000000000
-      internalID: 8762333550453302753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bear_hit-5_1
-      rect:
-        serializedVersion: 2
-        x: 1206
-        y: 1447
-        width: 98
-        height: 145
-      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -143,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 165d95488e4f97b90800000000000000
-      internalID: -7243489246158662303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bear_hit-5_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 187
-        width: 2123
-        height: 1354
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f37a2a15cc5c61510800000000000000
-      internalID: 1519619405617735487
+      spriteID: 84812b058d6029d80800000000000000
+      internalID: -8245520441625405368
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f0a0b1f3fc5e2134cb7d8ac669e87bd1
+    spriteID: c696587eb37344e45833ec261a5ea68d
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bear_hit-5_0: 8762333550453302753
-      bear_hit-5_1: -7243489246158662303
-      bear_hit-5_2: 1519619405617735487
+      bear_base-7_0: -8245520441625405368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
