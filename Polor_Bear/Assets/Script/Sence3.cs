@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sence3 : MonoBehaviour
+public class Sence3 : MonoBehaviour, TimerController
 {
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private Sence4 _sence4;
@@ -27,7 +27,7 @@ public class Sence3 : MonoBehaviour
         }
     }
 
-    public void GameSuccess()
+    public void TimeOut(int timeOutID)
     {
         StopAllCoroutines();
         _gameManager.SenceChange(4);

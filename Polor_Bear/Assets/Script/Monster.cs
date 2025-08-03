@@ -18,6 +18,8 @@ public class Monster : MonoBehaviour
     private Sence3 _parent;
     private bool enabled = true;
 
+    private bool _isHit = false;
+
 
     private void Start()
     {
@@ -104,8 +106,17 @@ public class Monster : MonoBehaviour
     {
         StartCoroutine(HandleClick());
     }
+    public void MonsterHit()
+    {
+        Debug.Log("Monster hit!");
+        if (!_isHit)
+        {
+            StartCoroutine(HandleClick());
+        }
+    }
     private IEnumerator HandleClick()
     {
+        _isHit = true;
         _monsterHealth++;
         if ((_monsterIndex != 3 && _monsterHealth <= 1) || (_monsterIndex == 3 && _monsterHealth <= 2))
         {
@@ -144,5 +155,7 @@ public class Monster : MonoBehaviour
 
             Destroy(gameObject);
         }
+        yield return new WaitForSeconds(2f);
+        _isHit = false;
     }
 }

@@ -66,7 +66,7 @@ MonoBehaviour:
   - {fileID: 1978532122824333949, guid: c7fcb329da226a4408904f8d23bc07ae, type: 3}
   - {fileID: 7232599212699297998, guid: 2c1da3fe848795045860f029677921d3, type: 3}
   _hitSprite: {fileID: 8883297553365294435}
-  _speed: 5
+  _speed: 7.5
 --- !u!212 &4170700280955466234
 SpriteRenderer:
   m_ObjectHideFlags: 0

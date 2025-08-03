@@ -2,11 +2,22 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private GameCalibration _gameCalibration;
+    [SerializeField] private GameObject _gameScreen;
     [SerializeField] private GameObject[] _sences;
+    private bool _isCalibrating = false;
 
     private void Start()
     {
         SenceChange(1);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q) && !_isCalibrating)
+        {
+            StartCalibration();
+        }
     }
     public void SenceChange(int senceIndex)
     {
@@ -26,5 +37,18 @@ public class GameManager : MonoBehaviour
                 _sences[i].SetActive(false);
             }
         }
+    }
+
+    public void StartCalibration()
+    {
+        _isCalibrating = true;
+        _gameScreen.SetActive(false);
+        _gameCalibration.StartCalibration();
+    }
+    public void FinishCalibration()
+    {
+        _isCalibrating = false;
+        _gameScreen.SetActive(true);
+        SenceChange(1);
     }
 }

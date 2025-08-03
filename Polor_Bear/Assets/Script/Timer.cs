@@ -1,51 +1,64 @@
 using UnityEngine;
+using System.Collections;
 using TMPro;
+
+public interface TimerController
+{
+    void TimeOut(int timeOutID);
+}
 
 public class Timer : MonoBehaviour
 {
+    [SerializeField] private MonoBehaviour _parentComponent;
     [SerializeField] private TextMeshPro _timerText;
     [SerializeField] private float _timeLimit = 10f;
-    private Sence3 _parent;
+    [SerializeField] private int _timeOutID = 0;
+    private TimerController _parent;
     private float _timeRemaining;
     private bool _isTimerRunning = false;
 
+    public void Show()
+    {
+        gameObject.SetActive(true);
+        StartTimer();
+    }
+    public void Hide()
+    {
+        gameObject.SetActive(false);
+        StopTimer();
+    }
     public void StartTimer()
     {
-        _timeRemaining = _timeLimit;
+        _timeRemaining = _timeLimit + 1f;
         _isTimerRunning = true;
     }
-
     public void StopTimer()
     {
-        _timeRemaining = _timeLimit;
         _isTimerRunning = false;
     }
 
-    void Start()
-    {
-        _parent = GetComponentInParent<Sence3>();
-        _timeRemaining = _timeLimit;
-        _isTimerRunning = true;
-        UpdateTimerText();
-    }
-
-    void Update()
+    private void Update()
     {
         if (_isTimerRunning)
         {
             _timeRemaining -= Time.deltaTime;
-
-            if (_timeRemaining <= 0f)
+            if (_timeRemaining <= 1f)
             {
-                _timeRemaining = 0f;
+                _parent = _parentComponent as TimerController;
                 _isTimerRunning = false;
-                _parent.GameSuccess();
+                _parent.TimeOut(_timeOutID);
             }
-            UpdateTimerText();
+            else
+            {
+                UpdateTimerText();
+            }
         }
     }
     private void UpdateTimerText()
     {
-        _timerText.text = $"{_timeRemaining:F0}";
+        if (_timerText != null)
+        {
+            _timerText.text = $"{Mathf.FloorToInt(_timeRemaining)}";
+        }
     }
 }
