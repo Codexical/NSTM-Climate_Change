@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: cd843d4a51cc8cf498f755d80b669b5c
+guid: b403cc0fd7f835648bf17a154ada7dd6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4409427099150699704
-    second: health-6_0
+      213: -297025794821797357
+    second: health_font-3_0
   - first:
-      213: 998812268135938400
-    second: health-6_1
+      213: 1316715557921780820
+    second: health_font-3_1
   - first:
-      213: 2942123403658095544
-    second: health-6_2
+      213: -3732012904309324204
+    second: health_font-3_2
   - first:
-      213: -8484810293603850569
-    second: health-6_3
+      213: 6252454484665277544
+    second: health_font-3_3
   - first:
-      213: -8527484747024309104
-    second: health-6_4
+      213: -3819805825005383032
+    second: health_font-3_4
+  - first:
+      213: -1467094908652220305
+    second: health_font-3_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: health-6_0
+      name: health_font-3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 7040
-        height: 1079
+        width: 3709
+        height: 877
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bccbd3a59e613d30800000000000000
-      internalID: 4409427099150699704
+      spriteID: 31ac4820d90c0ebf0800000000000000
+      internalID: -297025794821797357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-6_1
+      name: health_font-3_1
       rect:
         serializedVersion: 2
-        x: 1454
-        y: 0
-        width: 1276
-        height: 1079
+        x: 676
+        y: 97
+        width: 558
+        height: 608
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0697b87477e7cdd00800000000000000
-      internalID: 998812268135938400
+      spriteID: 454782cd2d9e54210800000000000000
+      internalID: 1316715557921780820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-6_2
+      name: health_font-3_2
       rect:
         serializedVersion: 2
-        x: 2881
-        y: 0
-        width: 1277
-        height: 1079
+        x: 1351
+        y: 98
+        width: 510
+        height: 607
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bb6768c5a584d820800000000000000
-      internalID: 2942123403658095544
+      spriteID: 456087d590a353cc0800000000000000
+      internalID: -3732012904309324204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-6_3
+      name: health_font-3_3
       rect:
         serializedVersion: 2
-        x: 4309
-        y: 0
-        width: 1277
-        height: 1079
+        x: 1986
+        y: 30
+        width: 457
+        height: 474
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7b62a2f0ef5ef3a80800000000000000
-      internalID: -8484810293603850569
+      spriteID: 86c95c41a3e25c650800000000000000
+      internalID: 6252454484665277544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: health-6_4
+      name: health_font-3_4
       rect:
         serializedVersion: 2
-        x: 5709
-        y: 0
-        width: 1331
-        height: 1079
+        x: 2536
+        y: 30
+        width: 457
+        height: 474
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +218,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 094ed0a9dc948a980800000000000000
-      internalID: -8527484747024309104
+      spriteID: 882169127d25dfac0800000000000000
+      internalID: -3819805825005383032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: health_font-3_5
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 97
+        width: 591
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60100e14f4d3abe0800000000000000
+      internalID: -1467094908652220305
       vertices: []
       indices: 
       edges: []
@@ -225,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 503d57ed060eb3b4c97e444dafb5e26b
+    spriteID: d4255cdc6a85a0a4182a97421fd70368
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      health-6_0: 4409427099150699704
-      health-6_1: 998812268135938400
-      health-6_2: 2942123403658095544
-      health-6_3: -8484810293603850569
-      health-6_4: -8527484747024309104
+      health_font-3_0: -297025794821797357
+      health_font-3_1: 1316715557921780820
+      health_font-3_2: -3732012904309324204
+      health_font-3_3: 6252454484665277544
+      health_font-3_4: -3819805825005383032
+      health_font-3_5: -1467094908652220305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

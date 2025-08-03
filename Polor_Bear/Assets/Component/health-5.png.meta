@@ -17,24 +17,6 @@ TextureImporter:
   - first:
       213: -5436578657722984100
     second: health-5_4
-  - first:
-      213: -2728037036932805340
-    second: health-5_5
-  - first:
-      213: 4736009742753029811
-    second: health-5_6
-  - first:
-      213: -7622201484089705448
-    second: health-5_7
-  - first:
-      213: 6912743615613349599
-    second: health-5_8
-  - first:
-      213: -2257157669382853006
-    second: health-5_9
-  - first:
-      213: 2061006518604367483
-    second: health-5_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,7 +118,7 @@ TextureImporter:
         x: 0
         y: 0
         width: 7041
-        height: 1945
+        height: 1079
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +137,10 @@ TextureImporter:
       name: health-5_1
       rect:
         serializedVersion: 2
-        x: 2365
-        y: 1339
-        width: 510
-        height: 606
+        x: 1454
+        y: 0
+        width: 1277
+        height: 1079
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,10 +159,10 @@ TextureImporter:
       name: health-5_2
       rect:
         serializedVersion: 2
-        x: 3016
-        y: 1339
-        width: 510
-        height: 606
+        x: 2882
+        y: 0
+        width: 1276
+        height: 1079
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +181,10 @@ TextureImporter:
       name: health-5_3
       rect:
         serializedVersion: 2
-        x: 3651
-        y: 1271
-        width: 457
-        height: 474
+        x: 4309
+        y: 0
+        width: 1277
+        height: 1079
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +203,10 @@ TextureImporter:
       name: health-5_4
       rect:
         serializedVersion: 2
-        x: 4201
-        y: 1271
-        width: 457
-        height: 474
+        x: 5709
+        y: 0
+        width: 1332
+        height: 1079
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,143 +221,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: health-5_5
-      rect:
-        serializedVersion: 2
-        x: 4750
-        y: 1338
-        width: 591
-        height: 407
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42dc287c4c0142ad0800000000000000
-      internalID: -2728037036932805340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: health-5_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1331
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3be5591c4cfa9b140800000000000000
-      internalID: 4736009742753029811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: health-5_7
-      rect:
-        serializedVersion: 2
-        x: 1454
-        y: 0
-        width: 1277
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81cb0666220883690800000000000000
-      internalID: -7622201484089705448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: health-5_8
-      rect:
-        serializedVersion: 2
-        x: 2882
-        y: 0
-        width: 1276
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdeabff61bffeef50800000000000000
-      internalID: 6912743615613349599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: health-5_9
-      rect:
-        serializedVersion: 2
-        x: 4309
-        y: 0
-        width: 1277
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27ee2620f07fca0e0800000000000000
-      internalID: -2257157669382853006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: health-5_10
-      rect:
-        serializedVersion: 2
-        x: 5709
-        y: 0
-        width: 1332
-        height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b768d2d428a2a9c10800000000000000
-      internalID: 2061006518604367483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7d8c7796e9a78fd40a16adb37455fb38
+    spriteID: 0e9a78ec102a91a4aac6fc921bb463ca
     internalID: 0
     vertices: []
     indices: 
@@ -387,15 +237,9 @@ TextureImporter:
     nameFileIdTable:
       health-5_0: -2790450272280516206
       health-5_1: 7112719434177262243
-      health-5_10: 2061006518604367483
       health-5_2: -2737784534028912182
       health-5_3: -8110829118872316689
       health-5_4: -5436578657722984100
-      health-5_5: -2728037036932805340
-      health-5_6: 4736009742753029811
-      health-5_7: -7622201484089705448
-      health-5_8: 6912743615613349599
-      health-5_9: -2257157669382853006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
