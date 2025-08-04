@@ -18,6 +18,11 @@ public class Sence3 : MonoBehaviour, TimerController
         _timer.StartTimer();
     }
 
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
+
     public void bearHit(Vector3 position)
     {
         _bear.hit();

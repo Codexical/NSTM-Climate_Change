@@ -30,6 +30,10 @@ public class Sence4 : MonoBehaviour, TimerController
         _isGaming = false;
         StartCoroutine(WaitToStart());
     }
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
 
     public void TimeOut(int timeOutID)
     {

@@ -20,6 +20,11 @@ public class Sence2 : MonoBehaviour, TimerController
         StartCoroutine(WaitToStart());
     }
 
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
+
     private IEnumerator WaitToStart()
     {
         yield return new WaitForSeconds(1.0f);
