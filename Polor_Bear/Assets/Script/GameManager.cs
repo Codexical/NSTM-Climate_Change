@@ -4,11 +4,14 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameCalibration _gameCalibration;
     [SerializeField] private GameObject _gameScreen;
+    [SerializeField] private GameObject _background;
     [SerializeField] private GameObject[] _sences;
     private bool _isCalibrating = false;
+    private bool _isBegin = false;
 
     private void Start()
     {
+        _isBegin = true;
         SenceChange(1);
     }
 
@@ -26,6 +29,14 @@ public class GameManager : MonoBehaviour
             Debug.LogError("Invalid scene index: " + senceIndex);
             return;
         }
+        if (senceIndex == 1)
+        {
+            _isBegin = true;
+        }
+        else
+        {
+            _isBegin = false;
+        }
         for (int i = 0; i < _sences.Length; i++)
         {
             if (i == senceIndex - 1)
@@ -41,13 +52,18 @@ public class GameManager : MonoBehaviour
 
     public void StartCalibration()
     {
-        _isCalibrating = true;
-        _gameScreen.SetActive(false);
-        _gameCalibration.StartCalibration();
+        if (_isBegin)
+        {
+            _isCalibrating = true;
+            _gameScreen.SetActive(false);
+            _background.SetActive(false);
+            _gameCalibration.StartCalibration();
+        }
     }
     public void FinishCalibration()
     {
         _isCalibrating = false;
+        _background.SetActive(true);
         _gameScreen.SetActive(true);
         SenceChange(1);
     }

@@ -8,9 +8,8 @@ public class MonsterGenerator : MonoBehaviour
 {
     [SerializeField] private Transform _parent;
     [SerializeField] private HandLandmarkerRunner _HandTracker;
-    [SerializeField] private GameObject _obstacle;
     [SerializeField] private GameCalibration _gameCalibration;
-    [SerializeField] private GameObject _testObject;
+    [SerializeField] private GameObject _obstacle;
     [SerializeField] private float _spawnInterval = 2.0f;
     private List<GameObject> _clones = new List<GameObject>();
     private Coroutine _spawnCoroutine;
@@ -73,7 +72,8 @@ public class MonsterGenerator : MonoBehaviour
                 var position = _gameCalibration.transformToGameArea(coordinate);
                 var x = position[0];
                 var y = position[1];
-                _testObject.transform.position = new Vector3(x, y, 0);
+                Debug.Log("coordinate: " + coordinate);
+                Debug.Log("position  : " + position);
                 foreach (GameObject obj in _clones)
                 {
                     if (obj != null)
