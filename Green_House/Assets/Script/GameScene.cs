@@ -46,6 +46,14 @@ public class GameScene : MonoBehaviour, TimerController
         _timeOutTimer.StartTimer();
     }
 
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+        _noticeTimer.StopTimer();
+        _timeOutTimer.StopTimer();
+        _endGameTimer.StopTimer();
+    }
+
     public void TimeOut(int timeOutID)
     {
         if (timeOutID == 2) // Notice timer timeout

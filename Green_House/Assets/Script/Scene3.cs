@@ -9,6 +9,12 @@ public class Scene3 : MonoBehaviour, TimerController
     {
         _timer.StartTimer();
     }
+
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)

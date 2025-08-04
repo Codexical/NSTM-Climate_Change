@@ -8,10 +8,16 @@ public class Scene2 : MonoBehaviour, TimerController
     {
         _timer.StartTimer();
     }
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
+
     public void TimeOut(int timeOutID)
     {
         _gameManager.SenceChange(2);
     }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)

@@ -20,6 +20,11 @@ public class Scene1 : MonoBehaviour, TimerController
         _timer.StopTimer();
     }
 
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
+
     public void LoadInfo()
     {
         _isLoaded = true;
