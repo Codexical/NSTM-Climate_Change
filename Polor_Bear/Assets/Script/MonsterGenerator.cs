@@ -17,6 +17,7 @@ public class MonsterGenerator : MonoBehaviour
 
     private void OnEnable()
     {
+        _clones.Clear();
         _spawnCoroutine = StartCoroutine(Spawn());
         _isGaming = true;
     }
