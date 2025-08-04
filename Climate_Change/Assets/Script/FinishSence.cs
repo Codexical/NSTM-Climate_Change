@@ -10,6 +10,11 @@ public class FinishSence : MonoBehaviour, TimerController
         _timer.StartTimer();
     }
 
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
+
     public void TimeOut()
     {
         _gameManager.SenceChange(1);

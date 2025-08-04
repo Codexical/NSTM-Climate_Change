@@ -16,9 +16,15 @@ public class Timer : MonoBehaviour
     private float _timeRemaining;
     private bool _isTimerRunning = false;
 
-    public void OnDisable()
+    public void Show()
     {
-        _isTimerRunning = false;
+        gameObject.SetActive(true);
+        StartTimer();
+    }
+    public void Hide()
+    {
+        gameObject.SetActive(false);
+        StopTimer();
     }
 
     public void StartTimer()

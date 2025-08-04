@@ -28,14 +28,21 @@ public class GameController : MonoBehaviour, TimerController
         correctList = new int[5];
         answerList = new List<int>();
         _scoreController.ResetScore();
-        _gameTimer.StopTimer();
+        _gameTimer.Hide();
 
         _noticeController.Hide();
         _nowIndex = Random.Range(0, answers.Length);
         _questionsCount++;
         answerList.Add(_nowIndex);
         _questionController.SetQuestion(_nowIndex);
-        _gameTimer.StartTimer();
+        _gameTimer.Show();
+        _noticeTimer.Hide();
+    }
+
+    private void OnDisable()
+    {
+        _gameTimer.StopTimer();
+        _noticeTimer.StopTimer();
     }
 
     void Update()
@@ -59,7 +66,7 @@ public class GameController : MonoBehaviour, TimerController
 
     private void CheckAnswer(int selected)
     {
-        _gameTimer.StopTimer();
+        _gameTimer.Hide();
         if (selected == answers[_nowIndex])
         {
             _audioSource.PlayOneShot(_correctSound);
@@ -73,7 +80,7 @@ public class GameController : MonoBehaviour, TimerController
             _noticeController.AnswerWrong(_nowIndex);
         }
         _isNotice = true;
-        _noticeTimer.StartTimer();
+        _noticeTimer.Show();
         _scoreController.UpdateScore(correctList);
     }
 
@@ -104,7 +111,8 @@ public class GameController : MonoBehaviour, TimerController
             }
             answerList.Add(_nowIndex);
             _questionController.SetQuestion(_nowIndex);
-            _gameTimer.StartTimer();
+            _gameTimer.Show();
+            _noticeTimer.Hide();
         }
         else
         {

@@ -9,6 +9,10 @@ public class Sence2 : MonoBehaviour, TimerController
     {
         _timer.StartTimer();
     }
+    private void OnDisable()
+    {
+        _timer.StopTimer();
+    }
 
     public void TimeOut()
     {
