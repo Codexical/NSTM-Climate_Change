@@ -4,7 +4,6 @@ public class GameScene : MonoBehaviour, TimerController
 {
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private Timer _timer;
-    [SerializeField] private Timer _taskTimer;
     [SerializeField] private Timer _noticeTimer;
     [SerializeField] private Timer _timeOutTimer;
     [SerializeField] private Timer _endGameTimer;
@@ -18,51 +17,55 @@ public class GameScene : MonoBehaviour, TimerController
     [SerializeField] private AudioClip _timeOutSound;
     [SerializeField] private AudioSource _audioSource;
     private int[] answerList = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    private int _ansCount = 0;
     private int _nowIndex = 0;
     private bool _isSelected = false;
     private bool _isAnswered = false;
     private bool _isFinish = false;
     private bool _isConnect = false;
 
+    private bool _isNotice = false;
+
     private void OnEnable()
     {
         answerList = new int[9];
+        _ansCount = 0;
         _isSelected = false;
         _isAnswered = false;
         _isFinish = false;
         _isConnect = false;
+        _isNotice = false;
 
         _questionPanel.Hide();
         foreach (var task in _tasks)
         {
             task.ShowMask();
         }
-        _taskTimer.Hide();
-        _noticeTimer.StopTimer();
+        _noticeTimer.Hide();
         _timer.StartTimer();
         _timeOutTimer.StartTimer();
     }
 
     public void TimeOut(int timeOutID)
     {
-        if (timeOutID == 1) // Task timer timeout
+        if (timeOutID == 2) // Notice timer timeout
         {
-            CheckAnswer(-1);
-        }
-        else if (timeOutID == 2) // Notice timer timeout
-        {
+            _noticeTimer.Hide();
+            _isNotice = false;
             if (_isConnect)
             {
                 _audioSource.PlayOneShot(_successSound);
                 _isFinish = true;
+                _timer.StopTimer();
                 _questionPanel.GameSuccess();
                 _endGameTimer.StartTimer();
                 return;
             }
-            if (_isFinish)
+            if (_isFinish || _ansCount >= 9)
             {
                 _audioSource.PlayOneShot(_failedSound);
                 _isFinish = true;
+                _timer.StopTimer();
                 _questionPanel.GameFailed();
                 _endGameTimer.StartTimer();
                 return;
@@ -125,8 +128,8 @@ public class GameScene : MonoBehaviour, TimerController
             return;
         }
         Debug.Log("Checking answer: " + answerIndex);
+        _ansCount++;
         _isAnswered = true;
-        _taskTimer.Hide();
         if (answerIndex == _answers[_nowIndex - 1])
         {
             _audioSource.PlayOneShot(_correctSound);
@@ -145,7 +148,8 @@ public class GameScene : MonoBehaviour, TimerController
         {
             _isConnect = true;
         }
-        _noticeTimer.StartTimer();
+        _noticeTimer.Show();
+        _isNotice = true;
     }
 
     public void SelectTask(int taskIndex)
@@ -156,7 +160,6 @@ public class GameScene : MonoBehaviour, TimerController
             _isSelected = true;
             _nowIndex = taskIndex;
             _questionPanel.Show(taskIndex - 1);
-            _taskTimer.Show();
         }
     }
 
@@ -188,6 +191,10 @@ public class GameScene : MonoBehaviour, TimerController
             {
                 CheckAnswer(6);
             }
+        }
+        else if (_isNotice && (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X)))
+        {
+            TimeOut(2);
         }
     }
 }

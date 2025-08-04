@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class Question : MonoBehaviour
 {
-    [SerializeField] private GameObject _replayButton;
     [SerializeField] private GameObject _HomeButton;
     [SerializeField] private Sprite _gameSuccess;
     [SerializeField] private Sprite _gameFailed;
@@ -16,7 +15,6 @@ public class Question : MonoBehaviour
     public void Hide()
     {
         gameObject.SetActive(false);
-        _replayButton.SetActive(false);
         _HomeButton.SetActive(false);
     }
 
@@ -46,7 +44,6 @@ public class Question : MonoBehaviour
     public void GameFailed()
     {
         _questionImage.sprite = _gameFailed;
-        _replayButton.SetActive(true);
         gameObject.SetActive(true);
     }
 

@@ -8,8 +8,11 @@ public class Scene1 : MonoBehaviour, TimerController
     [SerializeField] private GameObject _timerObject;
     [SerializeField] private GameObject _description1;
     [SerializeField] private GameObject _description2;
+
+    bool _isLoaded = false;
     private void OnEnable()
     {
+        _isLoaded = false;
         _button.SetActive(true);
         _timerObject.SetActive(false);
         _description1.SetActive(true);
@@ -19,6 +22,7 @@ public class Scene1 : MonoBehaviour, TimerController
 
     public void LoadInfo()
     {
+        _isLoaded = true;
         _button.SetActive(false);
         _timerObject.SetActive(true);
         _description1.SetActive(false);
@@ -36,7 +40,10 @@ public class Scene1 : MonoBehaviour, TimerController
         || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
         || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
         {
-            LoadInfo();
+            if (_isLoaded)
+                _gameManager.SenceChange(2);
+            else
+                LoadInfo();
         }
     }
 }
