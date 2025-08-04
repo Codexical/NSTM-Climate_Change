@@ -15,7 +15,7 @@ public class Scene3 : MonoBehaviour, TimerController
         || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
         || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
         {
-            _gameManager.SenceChange(4);
+            _gameManager.SenceChange(3);
         }
     }
 

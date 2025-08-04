@@ -14,11 +14,11 @@ public class Scene4 : MonoBehaviour, TimerController
     {
         if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z))
         {
-            _gameManager.SenceChange(5);
+            _gameManager.SenceChange(4);
         }
         else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
         {
-            _gameManager.SenceChange(6);
+            _gameManager.SenceChange(5);
         }
     }
 

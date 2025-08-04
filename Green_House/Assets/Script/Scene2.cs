@@ -10,7 +10,7 @@ public class Scene2 : MonoBehaviour, TimerController
     }
     public void TimeOut(int timeOutID)
     {
-        _gameManager.SenceChange(3);
+        _gameManager.SenceChange(2);
     }
     void Update()
     {
@@ -18,7 +18,7 @@ public class Scene2 : MonoBehaviour, TimerController
         || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
         || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
         {
-            _gameManager.SenceChange(3);
+            _gameManager.SenceChange(2);
         }
 
     }
