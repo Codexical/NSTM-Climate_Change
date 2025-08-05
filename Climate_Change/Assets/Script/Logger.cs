@@ -9,7 +9,7 @@ public class Logger : MonoBehaviour
     {
         if (!File.Exists(filePath))
         {
-            File.WriteAllText(filePath, "Timestamp,UserAnswer,,,,,,,,,,,,,,,,,,,,ActivityUserStatus,,,,,,,,,,,,,,,,,,,,UseTime,IsPass\n");
+            File.WriteAllText(filePath, "Timestamp,UserAnswer,,,,,,,,,,,,,,,,,,,,UserStatus,,,,,,,,,,,,,,,,,,,,UseTime,IsPass\n");
         }
     }
 
