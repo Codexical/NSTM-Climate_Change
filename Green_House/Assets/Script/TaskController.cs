@@ -12,7 +12,7 @@ public class TaskController : MonoBehaviour
     [SerializeField] private Sprite[] _taskCorrectSprites;
     [SerializeField] private Sprite[] _taskWrongSprites;
     [SerializeField] private Sprite[] _taskButtonSprites;
-    [SerializeField] private int[] _answers;
+    [SerializeField] public int[] _answers;
     private int[] taskList = new int[9];
     private string keyboardList = "QAZWSX";
     private void OnEnable()

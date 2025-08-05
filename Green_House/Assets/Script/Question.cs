@@ -6,7 +6,7 @@ public class Question : MonoBehaviour
     [SerializeField] private GameObject _HomeButton;
     [SerializeField] private Sprite _gameSuccess;
     [SerializeField] private Sprite _gameFailed;
-    [SerializeField] private Image _questionImage;
+    [SerializeField] public Image _questionImage;
     public Sprite[] _questionSprites = new Sprite[9];
     public Sprite[] _questionCorrectSprites = new Sprite[9];
     public Sprite[] _questionErrorSprites = new Sprite[9];

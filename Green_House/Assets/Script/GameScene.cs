@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class GameScene : MonoBehaviour, TimerController
 {
+    [SerializeField] private Logger _logger;
+    [SerializeField] private TaskController _taskController;
+    [SerializeField] private bool _isActivity = false;
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private Timer _timer;
     [SerializeField] private Timer _noticeTimer;
@@ -17,18 +20,19 @@ public class GameScene : MonoBehaviour, TimerController
     [SerializeField] private AudioClip _timeOutSound;
     [SerializeField] private AudioSource _audioSource;
     private int[] answerList = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    private int[] answerStatus = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     private int _ansCount = 0;
     private int _nowIndex = 0;
     private bool _isSelected = false;
     private bool _isAnswered = false;
     private bool _isFinish = false;
     private bool _isConnect = false;
-
     private bool _isNotice = false;
 
     private void OnEnable()
     {
         answerList = new int[9];
+        answerStatus = new int[9];
         _ansCount = 0;
         _nowIndex = 0;
         _isSelected = false;
@@ -45,6 +49,7 @@ public class GameScene : MonoBehaviour, TimerController
         _noticeTimer.Hide();
         _timer.StartTimer();
         _timeOutTimer.StartTimer();
+        _logger.SetTime();
     }
 
     private void OnDisable()
@@ -63,6 +68,7 @@ public class GameScene : MonoBehaviour, TimerController
             _isNotice = false;
             if (_isConnect)
             {
+                _logger.LogData(_isActivity, answerStatus, _taskController._answers, true, _timer.GetUseTime(), true);
                 _audioSource.PlayOneShot(_successSound);
                 _isFinish = true;
                 _timer.StopTimer();
@@ -72,6 +78,7 @@ public class GameScene : MonoBehaviour, TimerController
             }
             if (_isFinish || _ansCount >= 9)
             {
+                _logger.LogData(_isActivity, answerStatus, _taskController._answers, true, _timer.GetUseTime(), false);
                 _audioSource.PlayOneShot(_failedSound);
                 _isFinish = true;
                 _timer.StopTimer();
@@ -91,6 +98,7 @@ public class GameScene : MonoBehaviour, TimerController
                 _isFinish = true;
                 if (!_isAnswered && !_isConnect)
                 {
+                    _logger.LogData(_isActivity, answerStatus, _taskController._answers, false, _timer.GetUseTime(), false);
                     _noticeTimer.Hide();
                     _audioSource.PlayOneShot(_failedSound);
                     _questionPanel.GameFailed();
@@ -139,6 +147,8 @@ public class GameScene : MonoBehaviour, TimerController
         Debug.Log("Checking answer: " + answerIndex);
         _ansCount++;
         _isAnswered = true;
+        var taskIdx = _questionPanel._questionImage.sprite.name[^3] - '0';
+        answerStatus[taskIdx - 1] = answerIndex;
         if (answerIndex == _answers[_nowIndex - 1])
         {
             _audioSource.PlayOneShot(_correctSound);
