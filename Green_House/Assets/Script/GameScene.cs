@@ -9,7 +9,7 @@ public class GameScene : MonoBehaviour, TimerController
     [SerializeField] private Timer _endGameTimer;
     [SerializeField] private Question _questionPanel;
     [SerializeField] private Task[] _tasks;
-    [SerializeField] private int[] _answers;
+    public int[] _answers = new int[9];
     [SerializeField] private AudioClip _correctSound;
     [SerializeField] private AudioClip _errorSound;
     [SerializeField] private AudioClip _successSound;
@@ -30,6 +30,7 @@ public class GameScene : MonoBehaviour, TimerController
     {
         answerList = new int[9];
         _ansCount = 0;
+        _nowIndex = 0;
         _isSelected = false;
         _isAnswered = false;
         _isFinish = false;
