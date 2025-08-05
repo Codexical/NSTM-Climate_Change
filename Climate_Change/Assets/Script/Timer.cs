@@ -37,6 +37,11 @@ public class Timer : MonoBehaviour
         _isTimerRunning = false;
     }
 
+    public int GetUseTime()
+    {
+        return (int)(_timeLimit - _timeRemaining + 1f);
+    }
+
     private void Update()
     {
         if (_isTimerRunning)

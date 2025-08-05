@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class GameController : MonoBehaviour, TimerController
 {
+    [SerializeField] private Logger _logger;
     [SerializeField] private Sence4 _sence4;
     [SerializeField] private QuestionController _questionController;
     [SerializeField] private NoticeController _noticeController;
@@ -14,15 +15,16 @@ public class GameController : MonoBehaviour, TimerController
     [SerializeField] private AudioClip _errorSound;
     [SerializeField] private AudioSource _audioSource;
     private int[] answers = { 1, 2, 1, 3, 2, 1, 1, 3, 1, 1, 2, 3, 3, 1, 1, 2, 3, 1, 1, 3 };
+    private int[] answerStatus = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     private int[] correctList = { 0, 0, 0, 0, 0 };
     private List<int> answerList = new List<int>();
-
     private int _questionsCount = 0;
     private int _nowIndex = 0;
     private bool _isNotice = false;
 
     private void OnEnable()
     {
+        answerStatus = new int[20];
         _questionsCount = 0;
         _isNotice = false;
         correctList = new int[5];
@@ -37,6 +39,7 @@ public class GameController : MonoBehaviour, TimerController
         _questionController.SetQuestion(_nowIndex);
         _gameTimer.Show();
         _noticeTimer.Hide();
+        _logger.SetTime();
     }
 
     private void OnDisable()
@@ -67,6 +70,7 @@ public class GameController : MonoBehaviour, TimerController
     private void CheckAnswer(int selected)
     {
         _gameTimer.Hide();
+        answerStatus[_nowIndex] = selected;
         if (selected == answers[_nowIndex])
         {
             _audioSource.PlayOneShot(_correctSound);
@@ -99,6 +103,7 @@ public class GameController : MonoBehaviour, TimerController
                         sum++;
                     }
                 }
+                _logger.LogData(answerStatus, answers, sum >= 3);
                 _sence4.finishGame(sum);
                 return;
             }
