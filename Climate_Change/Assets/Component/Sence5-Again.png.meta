@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 640dfd3650af7964d8c9334dc5a84623
+guid: 25fa02f6fd04dc646ba1ba22fb24c33c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3176290313673551746
-    second: Sence5-PlayAgainButton_0
+      213: 1860921668953969097
+    second: Sence5-Again_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sence5-PlayAgainButton_0
+      name: Sence5-Again_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6071
-        height: 2029
+        width: 7963
+        height: 2025
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28fa60a2633741c20800000000000000
-      internalID: 3176290313673551746
+      spriteID: 9c114d8f56253d910800000000000000
+      internalID: 1860921668953969097
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sence5-PlayAgainButton_0: 3176290313673551746
+      Sence5-Again_0: 1860921668953969097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
