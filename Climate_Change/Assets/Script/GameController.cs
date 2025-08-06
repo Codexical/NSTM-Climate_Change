@@ -103,7 +103,7 @@ public class GameController : MonoBehaviour, TimerController
                         sum++;
                     }
                 }
-                _logger.LogData(answerStatus, answers, sum >= 3);
+                _logger.LogData(answerStatus, answers, sum >= 3, sum * 20);
                 _sence4.finishGame(sum);
                 return;
             }

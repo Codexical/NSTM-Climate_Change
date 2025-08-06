@@ -9,7 +9,7 @@ public class Logger : MonoBehaviour
     {
         if (!File.Exists(filePath))
         {
-            File.WriteAllText(filePath, "Timestamp,UserAnswer,,,,,,,,,,,,,,,,,,,,UserStatus,,,,,,,,,,,,,,,,,,,,UseTime,IsPass\n");
+            File.WriteAllText(filePath, "Timestamp,UserAnswer,,,,,,,,,,,,,,,,,,,,UserStatus,,,,,,,,,,,,,,,,,,,,UseTime,IsPass,Score\n");
         }
     }
 
@@ -18,7 +18,7 @@ public class Logger : MonoBehaviour
         nowTime = System.DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
     }
 
-    public void LogData(int[] answers, int[] groundTruth, bool isPass)
+    public void LogData(int[] answers, int[] groundTruth, bool isPass, int score)
     {
         string taskString = "";
         string answerString = "";
@@ -45,7 +45,7 @@ public class Logger : MonoBehaviour
             }
         }
         int useTime = (int)(System.DateTime.Now - System.DateTime.Parse(nowTime)).TotalSeconds;
-        string logEntry = $"{nowTime},{taskString}{answerString}{useTime},{isPass}\n";
+        string logEntry = $"{nowTime},{taskString}{answerString}{useTime},{isPass},{score}\n";
         File.AppendAllText(filePath, logEntry);
     }
 }
