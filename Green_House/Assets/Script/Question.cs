@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class Question : MonoBehaviour
 {
+    [SerializeField] private GameScene _gameScene;
     [SerializeField] private GameObject _HomeButton;
     [SerializeField] private Sprite _gameSuccess;
     [SerializeField] private Sprite _gameFailed;
@@ -10,7 +11,6 @@ public class Question : MonoBehaviour
     public Sprite[] _questionSprites = new Sprite[9];
     public Sprite[] _questionCorrectSprites = new Sprite[9];
     public Sprite[] _questionErrorSprites = new Sprite[9];
-
 
     public void Hide()
     {
@@ -32,6 +32,13 @@ public class Question : MonoBehaviour
     public void ShowCorrect(int questionIndex)
     {
         _questionImage.sprite = _questionCorrectSprites[questionIndex];
+    }
+    void OnMouseUp()
+    {
+        if (_gameScene._isNotice)
+        {
+            _gameScene.TimeOut(2);
+        }
     }
 
     public void GameSuccess()

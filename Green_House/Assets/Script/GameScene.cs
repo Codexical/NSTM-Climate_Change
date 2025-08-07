@@ -27,7 +27,7 @@ public class GameScene : MonoBehaviour, TimerController
     private bool _isAnswered = false;
     private bool _isFinish = false;
     private bool _isConnect = false;
-    private bool _isNotice = false;
+    public bool _isNotice = false;
 
     private void OnEnable()
     {

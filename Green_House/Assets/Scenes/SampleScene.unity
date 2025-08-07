@@ -1074,6 +1074,7 @@ GameObject:
   - component: {fileID: 235810885}
   - component: {fileID: 235810883}
   - component: {fileID: 235810886}
+  - component: {fileID: 235810887}
   m_Layer: 5
   m_Name: Question
   m_TagString: Untagged
@@ -1121,6 +1122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c05078fb7cc193449b704bd79624b82d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameScene: {fileID: 1117798726}
   _HomeButton: {fileID: 1881463671}
   _gameSuccess: {fileID: 4174994873911726681, guid: ebb742290e9dd3548b96677d54bf9c1a, type: 3}
   _gameFailed: {fileID: 2507482512099824675, guid: ad4d2b8b9f8cd774f98197ed49429191, type: 3}
@@ -1185,6 +1187,52 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!61 &235810887
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235810880}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 132.678, y: 86.759}
+  m_EdgeRadius: 0
 --- !u!1 &261767736
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,6 +2789,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2866,6 +2915,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &529618398
 GameObject:
   m_ObjectHideFlags: 0
@@ -5880,6 +5945,7 @@ MonoBehaviour:
   _failedSound: {fileID: 8300000, guid: bb246e3abe747674a9a6b0bbb990a4b5, type: 3}
   _timeOutSound: {fileID: 8300000, guid: d604afc03e6956442b30bcbbc5ee225b, type: 3}
   _audioSource: {fileID: 887727777}
+  _isNotice: 0
 --- !u!82 &887727777
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7030,7 +7096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1117798725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7105,6 +7171,7 @@ MonoBehaviour:
   _failedSound: {fileID: 8300000, guid: bb246e3abe747674a9a6b0bbb990a4b5, type: 3}
   _timeOutSound: {fileID: 8300000, guid: d604afc03e6956442b30bcbbc5ee225b, type: 3}
   _audioSource: {fileID: 1117798727}
+  _isNotice: 0
 --- !u!82 &1117798727
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8618,6 +8685,7 @@ GameObject:
   - component: {fileID: 1296204324}
   - component: {fileID: 1296204326}
   - component: {fileID: 1296204325}
+  - component: {fileID: 1296204328}
   m_Layer: 5
   m_Name: Question
   m_TagString: Untagged
@@ -8637,6 +8705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c05078fb7cc193449b704bd79624b82d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameScene: {fileID: 887727776}
   _HomeButton: {fileID: 217217012}
   _gameSuccess: {fileID: 4174994873911726681, guid: ebb742290e9dd3548b96677d54bf9c1a, type: 3}
   _gameFailed: {fileID: 2507482512099824675, guid: ad4d2b8b9f8cd774f98197ed49429191, type: 3}
@@ -8729,6 +8798,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -82.57001}
   m_SizeDelta: {x: 132.678, y: 86.759}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!61 &1296204328
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296204323}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 132.678, y: 86.759}
+  m_EdgeRadius: 0
 --- !u!1 &1321884299
 GameObject:
   m_ObjectHideFlags: 0
