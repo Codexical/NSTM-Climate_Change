@@ -5,6 +5,7 @@ public class Question : MonoBehaviour
 {
     [SerializeField] private GameScene _gameScene;
     [SerializeField] private GameObject _HomeButton;
+    [SerializeField] private GameObject _BackButton;
     [SerializeField] private Sprite _gameSuccess;
     [SerializeField] private Sprite _gameFailed;
     [SerializeField] public Image _questionImage;
@@ -16,6 +17,7 @@ public class Question : MonoBehaviour
     {
         gameObject.SetActive(false);
         _HomeButton.SetActive(false);
+        _BackButton.SetActive(false);
     }
 
     public void Show(int questionIndex)
@@ -33,7 +35,8 @@ public class Question : MonoBehaviour
     {
         _questionImage.sprite = _questionCorrectSprites[questionIndex];
     }
-    void OnMouseUp()
+
+    public void SkipNotice()
     {
         if (_gameScene._isNotice)
         {
@@ -52,6 +55,7 @@ public class Question : MonoBehaviour
     {
         _questionImage.sprite = _gameFailed;
         gameObject.SetActive(true);
+        _BackButton.SetActive(true);
     }
 
 }
