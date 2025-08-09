@@ -87,7 +87,6 @@ public class GameScene : MonoBehaviour, TimerController
                 return;
             }
             _questionPanel.Hide();
-            _tasks[_nowIndex - 1].HideMask();
             _isSelected = false;
             _isAnswered = false;
         }
@@ -179,6 +178,7 @@ public class GameScene : MonoBehaviour, TimerController
             _isSelected = true;
             _nowIndex = taskIndex;
             _questionPanel.Show(taskIndex - 1);
+            _tasks[_nowIndex - 1].HideMask();
         }
     }
 
