@@ -1,24 +1,55 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Mediapipe.Unity;
+using static Mediapipe.Unity.MultiHandLandmarkListAnnotation;
 using Mediapipe.Unity.Sample.HandLandmarkDetection;
+
+[System.Serializable]
+public class Config
+{
+    public Vector2 top;
+    public Vector2 left;
+    public Vector2 right;
+    public Vector2 bottom;
+    public bool keepHand;
+}
 
 public class GameCalibration : MonoBehaviour
 {
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private HandLandmarkerRunner _HandTracker;
-    [SerializeField] private GameObject _Hand;
+    [SerializeField] private MultiHandLandmarkListAnnotation _Hand;
     [SerializeField] private GameObject _gameArea;
     [SerializeField] private GameObject[] _calibrationObjects;
     private bool _isCalibrating = false;
+    string configPath = "./config.json";
+    bool keepHand = false;
 
     private void Start()
     {
+        if (!System.IO.File.Exists(configPath))
+        {
+            Config defaultConfig = new Config { top = { x = 0, y = 10 }, left = { x = -10, y = 0 }, right = { x = 10, y = 0 }, bottom = { x = 0, y = -10 }, keepHand = false };
+            string defaultJson = JsonUtility.ToJson(defaultConfig, true);
+            System.IO.File.WriteAllText(configPath, defaultJson);
+        }
+        string json = System.IO.File.ReadAllText(configPath);
+        Config config = JsonUtility.FromJson<Config>(json);
+        if (config != null)
+        {
+            _calibrationObjects[0].transform.position = new Vector3(config.top.x, config.top.y, 0);
+            _calibrationObjects[1].transform.position = new Vector3(config.left.x, config.left.y, 0);
+            _calibrationObjects[2].transform.position = new Vector3(config.right.x, config.right.y, 0);
+            _calibrationObjects[3].transform.position = new Vector3(config.bottom.x, config.bottom.y, 0);
+            keepHand = config.keepHand;
+            SetArea();
+        }
         foreach (var obj in _calibrationObjects)
         {
             obj.SetActive(false);
         }
-        _Hand.SetActive(false);
+        SetHand(keepHand);
         _gameArea.SetActive(false);
     }
 
@@ -33,9 +64,20 @@ public class GameCalibration : MonoBehaviour
                 {
                     obj.SetActive(false);
                 }
-                _Hand.SetActive(false);
+                SetHand(keepHand);
                 _gameArea.SetActive(false);
                 Debug.Log("Calibration completed.");
+                Config config = new Config
+                {
+                    top = new Vector2(_calibrationObjects[0].transform.position.x, _calibrationObjects[0].transform.position.y),
+                    left = new Vector2(_calibrationObjects[1].transform.position.x, _calibrationObjects[1].transform.position.y),
+                    right = new Vector2(_calibrationObjects[2].transform.position.x, _calibrationObjects[2].transform.position.y),
+                    bottom = new Vector2(_calibrationObjects[3].transform.position.x, _calibrationObjects[3].transform.position.y),
+                    keepHand = keepHand
+                };
+                string json = JsonUtility.ToJson(config, true);
+                System.IO.File.WriteAllText(configPath, json);
+                Debug.Log("Calibration data saved to " + configPath);
                 _gameManager.FinishCalibration();
             }
 
@@ -62,22 +104,40 @@ public class GameCalibration : MonoBehaviour
             {
                 _calibrationObjects[3].transform.position = new Vector3(x, y, 0);
             }
-            var center_x = 0f;
-            var center_y = 0f;
-            foreach (var obj in _calibrationObjects)
-            {
-                center_x += obj.transform.position.x;
-                center_y += obj.transform.position.y;
-            }
-            center_x /= 4;
-            center_y /= 4;
-            var width = (_calibrationObjects[2].transform.position.x - _calibrationObjects[1].transform.position.x) * 16;
-            var height = (_calibrationObjects[0].transform.position.y - _calibrationObjects[3].transform.position.y) * 16;
-            _gameArea.transform.position = new Vector3(center_x, center_y, 0);
-            _gameArea.GetComponent<RectTransform>().sizeDelta = new Vector2(width, height);
+            SetArea();
         }
     }
 
+    public void SetArea()
+    {
+        var center_x = 0f;
+        var center_y = 0f;
+        foreach (var obj in _calibrationObjects)
+        {
+            center_x += obj.transform.position.x;
+            center_y += obj.transform.position.y;
+        }
+        center_x /= 4;
+        center_y /= 4;
+        var width = (_calibrationObjects[2].transform.position.x - _calibrationObjects[1].transform.position.x) * 16;
+        var height = (_calibrationObjects[0].transform.position.y - _calibrationObjects[3].transform.position.y) * 16;
+        _gameArea.transform.position = new Vector3(center_x, center_y, 0);
+        _gameArea.GetComponent<RectTransform>().sizeDelta = new Vector2(width, height);
+    }
+
+    public void SetHand(bool _keepHand)
+    {
+        if (_keepHand)
+        {
+            _Hand.SetLandmarkRadius(15.0f);
+            _Hand.SetConnectionWidth(1.0f);
+        }
+        else
+        {
+            _Hand.SetLandmarkRadius(0.0f);
+            _Hand.SetConnectionWidth(0.0f);
+        }
+    }
     public void StartCalibration()
     {
         Debug.Log("Starting calibration...");
@@ -86,7 +146,7 @@ public class GameCalibration : MonoBehaviour
         {
             obj.SetActive(true);
         }
-        _Hand.SetActive(true);
+        SetHand(true);
         _gameArea.SetActive(true);
     }
 
