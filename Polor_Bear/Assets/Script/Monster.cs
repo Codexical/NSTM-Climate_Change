@@ -155,7 +155,7 @@ public class Monster : MonoBehaviour
 
             Destroy(gameObject);
         }
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
         _isHit = false;
     }
 }

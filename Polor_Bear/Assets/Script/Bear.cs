@@ -29,7 +29,7 @@ public class Bear : MonoBehaviour
     public void hit()
     {
         _bearHealth++;
-        if (_bearHealth < _bearBase.Length)
+        if (_bearHealth < _bearBase.Length - 1)
         {
             StartCoroutine(bearHit(_bearHealth));
             RectTransform rect = GetComponent<RectTransform>();

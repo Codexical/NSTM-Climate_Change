@@ -73,13 +73,13 @@ public class MonsterGenerator : MonoBehaviour
                 var position = _gameCalibration.transformToGameArea(coordinate);
                 var x = position[0];
                 var y = position[1];
-                Debug.Log("coordinate: " + coordinate);
-                Debug.Log("position  : " + position);
+                // Debug.Log("coordinate: " + coordinate);
+                // Debug.Log("position  : " + position);
                 foreach (GameObject obj in _clones)
                 {
                     if (obj != null)
                     {
-                        if (Vector2.Distance(new Vector2(obj.transform.position.x, obj.transform.position.y), new Vector2(x, y)) < 8f)
+                        if (Vector2.Distance(new Vector2(obj.transform.position.x, obj.transform.position.y), new Vector2(x, y)) <= 12f)
                         {
                             Monster monster = obj.GetComponent<Monster>();
                             if (monster != null)
