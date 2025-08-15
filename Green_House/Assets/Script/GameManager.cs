@@ -6,6 +6,7 @@ using System.IO.Ports;
 public class Config
 {
     public bool showDebugObjects;
+    public string sticker;
 }
 
 public class GameManager : MonoBehaviour
