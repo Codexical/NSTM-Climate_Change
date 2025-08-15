@@ -5,15 +5,6 @@ using Mediapipe.Unity;
 using static Mediapipe.Unity.MultiHandLandmarkListAnnotation;
 using Mediapipe.Unity.Sample.HandLandmarkDetection;
 
-[System.Serializable]
-public class Config
-{
-    public Vector2 top;
-    public Vector2 left;
-    public Vector2 right;
-    public Vector2 bottom;
-    public bool keepHand;
-}
 
 public class GameCalibration : MonoBehaviour
 {
@@ -23,19 +14,11 @@ public class GameCalibration : MonoBehaviour
     [SerializeField] private GameObject _gameArea;
     [SerializeField] private GameObject[] _calibrationObjects;
     private bool _isCalibrating = false;
-    string configPath = "./config.json";
-    bool keepHand = false;
+    private bool keepHand = false;
 
     private void Start()
     {
-        if (!System.IO.File.Exists(configPath))
-        {
-            Config defaultConfig = new Config { top = { x = 0, y = 10 }, left = { x = -10, y = 0 }, right = { x = 10, y = 0 }, bottom = { x = 0, y = -10 }, keepHand = false };
-            string defaultJson = JsonUtility.ToJson(defaultConfig, true);
-            System.IO.File.WriteAllText(configPath, defaultJson);
-        }
-        string json = System.IO.File.ReadAllText(configPath);
-        Config config = JsonUtility.FromJson<Config>(json);
+        Config config = _gameManager.config;
         if (config != null)
         {
             _calibrationObjects[0].transform.position = new Vector3(config.top.x, config.top.y, 0);
@@ -75,9 +58,7 @@ public class GameCalibration : MonoBehaviour
                     bottom = new Vector2(_calibrationObjects[3].transform.position.x, _calibrationObjects[3].transform.position.y),
                     keepHand = keepHand
                 };
-                string json = JsonUtility.ToJson(config, true);
-                System.IO.File.WriteAllText(configPath, json);
-                Debug.Log("Calibration data saved to " + configPath);
+                _gameManager.saveConfig(config);
                 _gameManager.FinishCalibration();
             }
 

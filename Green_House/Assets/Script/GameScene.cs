@@ -70,21 +70,7 @@ public class GameScene : MonoBehaviour, TimerController
             if (_isConnect)
             {
                 _logger.LogData(_isActivity, answerStatus, _taskController._answers, true, _timer.GetUseTime(), true);
-                try
-                {
-                    SerialPort sp = new SerialPort("COM2", 9600, Parity.None, 8, StopBits.One);
-                    sp.Open();
-                    sp.WriteLine("a");
-                    sp.Close();
-                    sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
-                    sp.Open();
-                    sp.WriteLine("a");
-                    sp.Close();
-                }
-                catch (System.Exception e)
-                {
-                    Debug.LogError("Error while sending data: " + e.Message);
-                }
+                _gameManager.printSticker();
                 _audioSource.PlayOneShot(_successSound);
                 _isFinish = true;
                 _timer.StopTimer();

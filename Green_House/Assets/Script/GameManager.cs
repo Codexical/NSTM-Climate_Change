@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.IO.Ports;
 
 
 [System.Serializable]
@@ -12,18 +13,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject[] _sences;
     [SerializeField] private GameObject[] _debugObjects;
     string configPath = "./config.json";
+    public Config config = null;
 
     private void Start()
     {
-        if (!System.IO.File.Exists(configPath))
-        {
-            // Create default config file with showDebugObjects = false
-            Config defaultConfig = new Config { showDebugObjects = false };
-            string defaultJson = JsonUtility.ToJson(defaultConfig, true);
-            System.IO.File.WriteAllText(configPath, defaultJson);
-        }
-        string json = System.IO.File.ReadAllText(configPath);
-        Config config = JsonUtility.FromJson<Config>(json);
+        LoadConfig();
         if (config != null)
         {
             foreach (GameObject debugObject in _debugObjects)
@@ -50,6 +44,38 @@ public class GameManager : MonoBehaviour
             {
                 _sences[i].SetActive(false);
             }
+        }
+    }
+
+    public void LoadConfig()
+    {
+        if (!System.IO.File.Exists(configPath))
+        {
+            Config defaultConfig = new Config { showDebugObjects = false, sticker = "P" };
+            string defaultJson = JsonUtility.ToJson(defaultConfig, true);
+            System.IO.File.WriteAllText(configPath, defaultJson);
+        }
+        config = JsonUtility.FromJson<Config>(System.IO.File.ReadAllText(configPath));
+    }
+
+    public void printSticker()
+    {
+        SerialPort sp = null;
+        try
+        {
+            sp = new SerialPort("COM2", 9600, Parity.None, 8, StopBits.One);
+            sp.Open();
+            sp.WriteLine(config.sticker);
+            sp.Close();
+            sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
+            sp.Open();
+            sp.WriteLine(config.sticker);
+            sp.Close();
+            Debug.Log("Sticker sent: " + config.sticker);
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Error while sending data: " + e.Message);
         }
     }
 }

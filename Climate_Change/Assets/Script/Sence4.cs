@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
-using System.IO.Ports;
 
 public class Sence4 : MonoBehaviour, TimerController
 {
@@ -30,21 +29,7 @@ public class Sence4 : MonoBehaviour, TimerController
             _audioSource.PlayOneShot(_successSound);
             _successObject.SetActive(true);
             _successTextObject.text = $"{score * 20}";
-            try
-            {
-                SerialPort sp = new SerialPort("COM2", 9600, Parity.None, 8, StopBits.One);
-                sp.Open();
-                sp.WriteLine("P");
-                sp.Close();
-                sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
-                sp.Open();
-                sp.WriteLine("P");
-                sp.Close();
-            }
-            catch (System.Exception e)
-            {
-                Debug.LogError("Error while sending data: " + e.Message);
-            }
+            _gameManager.printSticker();
         }
         else
         {

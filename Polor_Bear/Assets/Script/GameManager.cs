@@ -1,4 +1,16 @@
 using UnityEngine;
+using System.IO.Ports;
+
+[System.Serializable]
+public class Config
+{
+    public Vector2 top;
+    public Vector2 left;
+    public Vector2 right;
+    public Vector2 bottom;
+    public bool keepHand;
+    public string sticker;
+}
 
 public class GameManager : MonoBehaviour
 {
@@ -8,9 +20,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject[] _sences;
     private bool _isCalibrating = false;
     private bool _isBegin = false;
+    private string configPath = "./config.json";
+    public Config config = null;
 
     private void Start()
     {
+        LoadConfig();
         _isBegin = true;
         SenceChange(1);
     }
@@ -66,5 +81,49 @@ public class GameManager : MonoBehaviour
         _background.SetActive(true);
         _gameScreen.SetActive(true);
         SenceChange(1);
+    }
+
+    public void LoadConfig()
+    {
+        if (!System.IO.File.Exists(configPath))
+        {
+            Config defaultConfig = new Config { top = { x = 0, y = 10 }, left = { x = -10, y = 0 }, right = { x = 10, y = 0 }, bottom = { x = 0, y = -10 }, keepHand = false, sticker = "P" };
+            string defaultJson = JsonUtility.ToJson(defaultConfig, true);
+            System.IO.File.WriteAllText(configPath, defaultJson);
+        }
+        config = JsonUtility.FromJson<Config>(System.IO.File.ReadAllText(configPath));
+    }
+
+    public void saveConfig(Config newConfig)
+    {
+        if (newConfig == null)
+        {
+            Debug.LogError("Cannot save null config.");
+        }
+        config = newConfig;
+        string json = JsonUtility.ToJson(newConfig, true);
+        System.IO.File.WriteAllText(configPath, json);
+        Debug.Log("Configuration saved to " + configPath);
+    }
+
+    public void printSticker()
+    {
+        SerialPort sp = null;
+        try
+        {
+            sp = new SerialPort("COM2", 9600, Parity.None, 8, StopBits.One);
+            sp.Open();
+            sp.WriteLine(config.sticker);
+            sp.Close();
+            sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
+            sp.Open();
+            sp.WriteLine(config.sticker);
+            sp.Close();
+            Debug.Log("Sticker sent: " + config.sticker);
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError("Error while sending data: " + e.Message);
+        }
     }
 }

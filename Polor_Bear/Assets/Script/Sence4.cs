@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Mediapipe.Unity.Sample.HandLandmarkDetection;
-using System.IO.Ports;
 
 public class Sence4 : MonoBehaviour, TimerController
 {
@@ -27,21 +26,7 @@ public class Sence4 : MonoBehaviour, TimerController
     }
     private void OnEnable()
     {
-        try
-        {
-            SerialPort sp = new SerialPort("COM2", 9600, Parity.None, 8, StopBits.One);
-            sp.Open();
-            sp.WriteLine("A");
-            sp.Close();
-            sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
-            sp.Open();
-            sp.WriteLine("A");
-            sp.Close();
-        }
-        catch (System.Exception e)
-        {
-            Debug.LogError("Error while sending data: " + e.Message);
-        }
+        _gameManager.printSticker();
         _timer.StartTimer();
         _isGaming = false;
         StartCoroutine(WaitToStart());
