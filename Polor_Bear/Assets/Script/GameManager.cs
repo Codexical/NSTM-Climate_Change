@@ -4,6 +4,8 @@ using System.IO.Ports;
 [System.Serializable]
 public class Config
 {
+    public Vector2 gameLocation;
+    public float gameScale;
     public Vector2 top;
     public Vector2 left;
     public Vector2 right;
@@ -26,6 +28,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         LoadConfig();
+        _gameScreen.transform.position = new Vector3(config.gameLocation.x, config.gameLocation.y, 0);
+        _gameScreen.transform.localScale = new Vector3(config.gameScale, config.gameScale, 1);
         _isBegin = true;
         SenceChange(1);
     }
@@ -87,20 +91,26 @@ public class GameManager : MonoBehaviour
     {
         if (!System.IO.File.Exists(configPath))
         {
-            Config defaultConfig = new Config { top = { x = 0, y = 10 }, left = { x = -10, y = 0 }, right = { x = 10, y = 0 }, bottom = { x = 0, y = -10 }, keepHand = false, sticker = "P" };
+            Config defaultConfig = new Config { gameLocation = { x = 0, y = 0 }, gameScale = 1, top = { x = 0, y = 10 }, left = { x = -10, y = 0 }, right = { x = 10, y = 0 }, bottom = { x = 0, y = -10 }, keepHand = false, sticker = "P" };
             string defaultJson = JsonUtility.ToJson(defaultConfig, true);
             System.IO.File.WriteAllText(configPath, defaultJson);
         }
         config = JsonUtility.FromJson<Config>(System.IO.File.ReadAllText(configPath));
     }
 
-    public void saveConfig(Config newConfig)
+    public void saveConfig(Config posConfig)
     {
-        if (newConfig == null)
+        Config newConfig = new Config
         {
-            Debug.LogError("Cannot save null config.");
-        }
-        config = newConfig;
+            gameLocation = config.gameLocation,
+            gameScale = config.gameScale,
+            top = posConfig.top,
+            left = posConfig.left,
+            right = posConfig.right,
+            bottom = posConfig.bottom,
+            keepHand = config.keepHand,
+            sticker = config.sticker
+        };
         string json = JsonUtility.ToJson(newConfig, true);
         System.IO.File.WriteAllText(configPath, json);
         Debug.Log("Configuration saved to " + configPath);
