@@ -27,28 +27,31 @@ public class Scene1 : MonoBehaviour, TimerController
 
     public void LoadInfo()
     {
-        _isLoaded = true;
-        _button.SetActive(false);
-        _timerObject.SetActive(true);
-        _description1.SetActive(false);
-        _description2.SetActive(true);
-        _timer.StartTimer();
+        if (!_isLoaded)
+        {
+            _isLoaded = true;
+            _button.SetActive(false);
+            _timerObject.SetActive(true);
+            _description1.SetActive(false);
+            _description2.SetActive(true);
+            _timer.StartTimer();
+        }
     }
     public void TimeOut(int timeOutID)
     {
         _gameManager.SenceChange(2);
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)
-        || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
-        || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
-        {
-            if (_isLoaded)
-                _gameManager.SenceChange(2);
-            else
-                LoadInfo();
-        }
-    }
+    // void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)
+    //     || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
+    //     || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
+    //     {
+    //         if (_isLoaded)
+    //             _gameManager.SenceChange(2);
+    //         else
+    //             LoadInfo();
+    //     }
+    // }
 }
