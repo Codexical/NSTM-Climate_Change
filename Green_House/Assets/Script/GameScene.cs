@@ -213,7 +213,7 @@ public class GameScene : MonoBehaviour, TimerController
                 CheckAnswer(6);
             }
         }
-        else if (_isNotice && (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X)))
+        else if (_isNotice && _gameManager.isKeySkipEnabled() && (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X)))
         {
             TimeOut(2);
         }

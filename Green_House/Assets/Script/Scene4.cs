@@ -15,17 +15,17 @@ public class Scene4 : MonoBehaviour, TimerController
         _timer.StopTimer();
     }
 
-    // void Update()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z))
-    //     {
-    //         _gameManager.SenceChange(4);
-    //     }
-    //     else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
-    //     {
-    //         _gameManager.SenceChange(5);
-    //     }
-    // }
+    void Update()
+    {
+        if (_gameManager.isKeySkipEnabled() && (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Z)))
+        {
+            _gameManager.SenceChange(4);
+        }
+        else if (_gameManager.isKeySkipEnabled() && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X)))
+        {
+            _gameManager.SenceChange(5);
+        }
+    }
 
     public void TimeOut(int timeOutID)
     {

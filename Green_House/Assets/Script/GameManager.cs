@@ -5,6 +5,7 @@ using System.IO.Ports;
 [System.Serializable]
 public class Config
 {
+    public bool keySkip;
     public bool showDebugObjects;
     public string sticker;
 }
@@ -52,7 +53,7 @@ public class GameManager : MonoBehaviour
     {
         if (!System.IO.File.Exists(configPath))
         {
-            Config defaultConfig = new Config { showDebugObjects = false, sticker = "P" };
+            Config defaultConfig = new Config { keySkip = false, showDebugObjects = false, sticker = "P" };
             string defaultJson = JsonUtility.ToJson(defaultConfig, true);
             System.IO.File.WriteAllText(configPath, defaultJson);
         }
@@ -78,5 +79,10 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError("Error while sending data: " + e.Message);
         }
+    }
+
+    public bool isKeySkipEnabled()
+    {
+        return config != null && config.keySkip;
     }
 }

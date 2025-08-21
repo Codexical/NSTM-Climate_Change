@@ -42,16 +42,17 @@ public class Scene1 : MonoBehaviour, TimerController
         _gameManager.SenceChange(2);
     }
 
-    // void Update()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)
-    //     || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
-    //     || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
-    //     {
-    //         if (_isLoaded)
-    //             _gameManager.SenceChange(2);
-    //         else
-    //             LoadInfo();
-    //     }
-    // }
+    void Update()
+    {
+        if (_gameManager.isKeySkipEnabled() &&
+          (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)
+        || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
+        || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X)))
+        {
+            if (_isLoaded)
+                _gameManager.SenceChange(2);
+            else
+                LoadInfo();
+        }
+    }
 }

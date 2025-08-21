@@ -15,15 +15,16 @@ public class Scene3 : MonoBehaviour, TimerController
         _timer.StopTimer();
     }
 
-    // void Update()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)
-    //     || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
-    //     || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X))
-    //     {
-    //         _gameManager.SenceChange(3);
-    //     }
-    // }
+    void Update()
+    {
+        if (_gameManager.isKeySkipEnabled() &&
+          (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.A)
+        || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W)
+        || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.X)))
+        {
+            _gameManager.SenceChange(3);
+        }
+    }
 
     public void TimeOut(int timeOutID)
     {
