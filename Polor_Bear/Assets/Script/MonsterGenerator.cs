@@ -1,14 +1,12 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Mediapipe.Unity.Sample.HandLandmarkDetection;
 
 
 public class MonsterGenerator : MonoBehaviour
 {
+    [SerializeField] private HandTracker _handTracker;
     [SerializeField] private Transform _parent;
-    [SerializeField] private HandLandmarkerRunner _HandTracker;
-    [SerializeField] private GameCalibration _gameCalibration;
     [SerializeField] private GameObject _obstacle;
     [SerializeField] private float _spawnInterval = 2.0f;
     private List<GameObject> _clones = new List<GameObject>();
@@ -61,32 +59,51 @@ public class MonsterGenerator : MonoBehaviour
 
     private void Update()
     {
-        if (_isGaming)
+        if (!_isGaming)
         {
-            List<Vector2> coordinates = _HandTracker.GetResults();
-            if (coordinates == null || coordinates.Count < 1)
+            return;
+        }
+
+        var coordinates = _handTracker.GetClickArea();
+        if (coordinates == null)
+        {
+            return;
+        }
+
+        foreach (GameObject obj in _clones)
+        {
+            if (obj != null)
             {
-                return;
-            }
-            foreach (var coordinate in coordinates)
-            {
-                var position = _gameCalibration.transformToGameArea(coordinate);
-                var x = position[0];
-                var y = position[1];
-                // Debug.Log("coordinate: " + coordinate);
-                // Debug.Log("position  : " + position);
-                foreach (GameObject obj in _clones)
+                int posX = (int)obj.transform.position.x * 16;
+                int posY = (int)obj.transform.position.y * 16;
+                int width = 40;
+                int height = 40;
+
+                int offsetX = 320;
+                int offsetY = 180;
+                int minX = (posX - width / 2) * 640 / 3413;
+                int maxX = (posX + width / 2) * 640 / 3413;
+                int minY = (posY - height / 2) * 360 / 1920;
+                int maxY = (posY + height / 2) * 360 / 1920;
+
+                bool isAreaTrigger = false;
+                for (int x = minX; x < maxX; x++)
                 {
-                    if (obj != null)
+                    for (int y = minY; y < maxY; y++)
                     {
-                        if (Vector2.Distance(new Vector2(obj.transform.position.x, obj.transform.position.y), new Vector2(x, y)) <= 12f)
+                        if (coordinates[y + offsetY, x + offsetX])
                         {
-                            Monster monster = obj.GetComponent<Monster>();
-                            if (monster != null)
-                            {
-                                monster.MonsterHit();
-                            }
+                            isAreaTrigger = true;
+                            break;
                         }
+                    }
+                }
+                if (isAreaTrigger)
+                {
+                    Monster monster = obj.GetComponent<Monster>();
+                    if (monster != null)
+                    {
+                        monster.MonsterHit();
                     }
                 }
             }

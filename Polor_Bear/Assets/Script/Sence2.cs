@@ -1,12 +1,10 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Mediapipe.Unity.Sample.HandLandmarkDetection;
 
 public class Sence2 : MonoBehaviour, TimerController
 {
-    [SerializeField] private HandLandmarkerRunner _HandTracker;
-    [SerializeField] private GameCalibration _gameCalibration;
+    [SerializeField] private HandTracker _handTracker;
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private Timer _timer;
     [SerializeField] private GameObject _button;
@@ -42,24 +40,40 @@ public class Sence2 : MonoBehaviour, TimerController
         {
             return;
         }
-        List<Vector2> coordinates = _HandTracker.GetResults();
-        if (coordinates == null || coordinates.Count < 1)
+
+        var coordinates = _handTracker.GetClickArea();
+        if (coordinates == null)
         {
             return;
         }
-        foreach (var coordinate in coordinates)
+
+        int posX = 0;
+        int posY = -22;
+        int width = 771;
+        int height = 286;
+
+        int offsetX = 320;
+        int offsetY = 180;
+        int minX = (posX - width / 2) * 640 / 3413;
+        int maxX = (posX + width / 2) * 640 / 3413;
+        int minY = (posY - height / 2) * 360 / 1920;
+        int maxY = (posY + height / 2) * 360 / 1920;
+
+        bool isAreaTrigger = false;
+        for (int x = minX; x < maxX; x++)
         {
-            var position = _gameCalibration.transformToGameArea(coordinate);
-            var x = position[0];
-            var y = position[1];
-            var buttonRect = _button.GetComponent<RectTransform>();
-            if (x >= _button.transform.position.x - buttonRect.sizeDelta.x / 32 &&
-                x <= _button.transform.position.x + buttonRect.sizeDelta.x / 32 &&
-                y >= _button.transform.position.y - buttonRect.sizeDelta.y / 32 &&
-                y <= _button.transform.position.y + buttonRect.sizeDelta.y / 32)
+            for (int y = minY; y < maxY; y++)
             {
-                _gameManager.SenceChange(3);
+                if (coordinates[y + offsetY, x + offsetX])
+                {
+                    isAreaTrigger = true;
+                    break;
+                }
             }
+        }
+        if (isAreaTrigger)
+        {
+            _gameManager.SenceChange(3);
         }
     }
 
