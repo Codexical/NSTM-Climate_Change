@@ -29,6 +29,14 @@ public class GameManager : MonoBehaviour
         }
         SenceChange(1);
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            printSticker();
+        }
+    }
+
     public void SenceChange(int senceIndex)
     {
         if (senceIndex < 1 || senceIndex > _sences.Length)
@@ -63,21 +71,22 @@ public class GameManager : MonoBehaviour
     public void printSticker()
     {
         SerialPort sp = null;
-        try
+        string[] ports = { "COM2", "COM3" };
+        foreach (string port in ports)
         {
-            sp = new SerialPort("COM2", 9600, Parity.None, 8, StopBits.One);
-            sp.Open();
-            sp.WriteLine(config.sticker);
-            sp.Close();
-            sp = new SerialPort("COM3", 9600, Parity.None, 8, StopBits.One);
-            sp.Open();
-            sp.WriteLine(config.sticker);
-            sp.Close();
-            Debug.Log("Sticker sent: " + config.sticker);
-        }
-        catch (System.Exception e)
-        {
-            Debug.LogError("Error while sending data: " + e.Message);
+            try
+            {
+                sp = new SerialPort(port, 9600, Parity.None, 8, StopBits.One);
+                sp.Open();
+                sp.WriteLine(config.sticker);
+                sp.Close();
+                Debug.Log("Sending sticker to " + port);
+                return;
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogError("Failed to open serial port " + port + ": " + e.Message);
+            }
         }
     }
 
