@@ -31,8 +31,7 @@ public class HandTracker : MonoBehaviour
     private Texture2D texture;
     private byte[] receivedBytes;
     private ushort[] depthDataBuffer;
-    private ushort[] depthDataBufferNow;
-    private ushort[] depthDataBufferBase;
+    public ushort[] depthDataBufferBase;
 
     private readonly object frameLock = new object();
     private bool newFrameReady = false;
@@ -101,16 +100,6 @@ public class HandTracker : MonoBehaviour
 
         lock (frameLock)
         {
-            // This operation is now safe because we are using a locked buffer
-            for (int y = 0; y < imageHeight; y++)
-            {
-                for (int x = 0; x < imageWidth; x++)
-                {
-                    var depth = depthDataBuffer[y * imageWidth + x];
-                    var diff = depthDataBufferBase[y * imageWidth + x] - depth;
-                    depthArray2D[y, x] = diff > lowerBound && diff < upperBound;
-                }
-            }
             if (isInit)
             {
                 for (int y = 0; y < imageHeight; y++)
@@ -119,6 +108,18 @@ public class HandTracker : MonoBehaviour
                     {
                         var depth = depthDataBuffer[y * imageWidth + x];
                         depthDataBufferBase[y * imageWidth + x] = (ushort)((float)depthDataBufferBase[y * imageWidth + x] * 0.99f + (float)depth * 0.01f);
+                    }
+                }
+            }
+            else
+            {
+                for (int y = 0; y < imageHeight; y++)
+                {
+                    for (int x = 0; x < imageWidth; x++)
+                    {
+                        var depth = depthDataBuffer[y * imageWidth + x];
+                        var diff = depthDataBufferBase[y * imageWidth + x] - depth;
+                        depthArray2D[y, x] = diff > lowerBound && diff < upperBound;
                     }
                 }
             }

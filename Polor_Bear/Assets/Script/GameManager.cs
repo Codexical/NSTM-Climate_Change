@@ -1,6 +1,6 @@
 using UnityEngine;
+using System.IO;
 using System.IO.Ports;
-using System.Collections;
 
 [System.Serializable]
 public class Config
@@ -8,6 +8,7 @@ public class Config
     public int lowerBound;
     public int upperBound;
     public string sticker;
+    public bool resetGround;
 }
 
 public class GameManager : MonoBehaviour
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _calibration;
     [SerializeField] private HandTracker _handTracker;
     private string configPath = "./config.json";
+    private string depthPath = "./depth.txt";
     public Config config = null;
 
     private void Start()
@@ -28,7 +30,8 @@ public class GameManager : MonoBehaviour
         }
         _calibration.SetActive(true);
         LoadConfig();
-        StartCoroutine(WaitForCalibration());
+        _calibration.SetActive(false);
+        SenceChange(1);
     }
 
     void Update()
@@ -37,18 +40,6 @@ public class GameManager : MonoBehaviour
         {
             printSticker();
         }
-    }
-
-    private IEnumerator WaitForCalibration()
-    {
-        yield return new WaitForSeconds(0.1f);
-        for (int i = 0; i < 5000; i++)
-        {
-            _handTracker.GetClickArea(true);
-        }
-        Debug.Log("Calibration done");
-        _calibration.SetActive(false);
-        SenceChange(1);
     }
 
     public void SenceChange(int senceIndex)
@@ -76,13 +67,59 @@ public class GameManager : MonoBehaviour
     {
         if (!System.IO.File.Exists(configPath))
         {
-            Config defaultConfig = new Config { lowerBound = 0, upperBound = 10000, sticker = "P" };
+            Config defaultConfig = new Config { lowerBound = 0, upperBound = 10000, sticker = "P", resetGround = true};
             string defaultJson = JsonUtility.ToJson(defaultConfig, true);
             System.IO.File.WriteAllText(configPath, defaultJson);
         }
         config = JsonUtility.FromJson<Config>(System.IO.File.ReadAllText(configPath));
         _handTracker.lowerBound = config.lowerBound;
         _handTracker.upperBound = config.upperBound;
+        if (config.resetGround)
+        {
+            Debug.Log("Resetting ground depth");
+            for (int i = 0; i < 5000; i++)
+            {
+                _handTracker.GetClickArea(true);
+            }
+            using (StreamWriter writer = new StreamWriter("depth.txt", false))
+            {
+                for (int i = 0; i < _handTracker.imageHeight; i++)
+                {
+                    for (int j = 0; j < _handTracker.imageWidth; j++)
+                    {
+                        writer.Write($"{_handTracker.depthDataBufferBase[i * _handTracker.imageWidth + j],5}");
+                        if (j < _handTracker.imageWidth - 1) writer.Write(", ");
+                    }
+                    writer.WriteLine();
+                }
+            }
+            config.resetGround = false;
+            System.IO.File.WriteAllText(configPath, JsonUtility.ToJson(config, true));
+        }
+        else
+        {
+            Debug.Log("Loading ground depth from config");
+            if (System.IO.File.Exists(depthPath))
+            {
+                string[] lines = System.IO.File.ReadAllLines(depthPath);
+                for (int i = 0; i < _handTracker.imageHeight; i++)
+                {
+                    string[] values = lines[i].Split(new char[] { ',', ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+                    for (int j = 0; j < _handTracker.imageWidth; j++)
+                    {
+                        if (ushort.TryParse(values[j], out ushort depthValue))
+                        {
+                            _handTracker.depthDataBufferBase[i * _handTracker.imageWidth + j] = depthValue;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Debug.LogError("Depth file not found: " + depthPath);
+            }
+        }
+        Debug.Log(_handTracker.depthDataBufferBase[0]);
     }
 
     public void printSticker()
