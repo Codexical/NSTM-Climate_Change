@@ -3,14 +3,14 @@ using System.IO;
 
 public class Logger : MonoBehaviour
 {
-    private string filePath = @"./Log.csv";
-
+    private string dataFolder = "./Data";
     private string nowTime;
+
     private void Start()
     {
-        if (!File.Exists(filePath))
+        if (!Directory.Exists(dataFolder))
         {
-            File.WriteAllText(filePath, "Timestamp,ActivityUserAnswer,,,,,,,,,ActivityUserStatus,,,,,,,,,LifeUserAnswer,,,,,,,,,LifeUserStatus,,,,,,,,,IsFinish,UseTime,IsPass\n");
+            Directory.CreateDirectory(dataFolder);
         }
     }
 
@@ -50,6 +50,13 @@ public class Logger : MonoBehaviour
             logEntry = $"{nowTime},{taskString}0,0,0,0,0,0,0,0,0,{answerString}0,0,0,0,0,0,0,0,0,{isFinish},{useTime},{isPass}\n";
         else
             logEntry = $"{nowTime},0,0,0,0,0,0,0,0,0,{taskString}0,0,0,0,0,0,0,0,0,{answerString}{isFinish},{useTime},{isPass}\n";
+
+        string yearMonth = System.DateTime.Now.ToString("yyyyMM");
+        string filePath = $"{dataFolder}/{yearMonth}.csv";
+        if (!File.Exists(filePath))
+        {
+            File.WriteAllText(filePath, "Timestamp,ActivityUserAnswer,,,,,,,,,ActivityUserStatus,,,,,,,,,LifeUserAnswer,,,,,,,,,LifeUserStatus,,,,,,,,,IsFinish,UseTime,IsPass\n");
+        }
         File.AppendAllText(filePath, logEntry);
     }
 }

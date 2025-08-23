@@ -3,16 +3,17 @@ using System.IO;
 
 public class Logger : MonoBehaviour
 {
-    private string filePath = @"./Log.csv";
+    private string dataFolder = "./Data";
     private string nowTime;
+
     private void Start()
     {
-        if (!File.Exists(filePath))
+        if (!Directory.Exists(dataFolder))
         {
-            File.WriteAllText(filePath, "Timestamp,UserAnswer,,,,,,,,,,,,,,,,,,,,UserStatus,,,,,,,,,,,,,,,,,,,,UseTime,IsPass,Score\n");
+            Directory.CreateDirectory(dataFolder);
         }
     }
-
+    
     public void SetTime()
     {
         nowTime = System.DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
@@ -46,6 +47,13 @@ public class Logger : MonoBehaviour
         }
         int useTime = (int)(System.DateTime.Now - System.DateTime.Parse(nowTime)).TotalSeconds;
         string logEntry = $"{nowTime},{taskString}{answerString}{useTime},{isPass},{score}\n";
+
+        string yearMonth = System.DateTime.Now.ToString("yyyyMM");
+        string filePath = $"{dataFolder}/{yearMonth}.csv";
+        if (!File.Exists(filePath))
+        {
+            File.WriteAllText(filePath, "Timestamp,UserAnswer,,,,,,,,,,,,,,,,,,,,UserStatus,,,,,,,,,,,,,,,,,,,,UseTime,IsPass,Score\n");
+        }
         File.AppendAllText(filePath, logEntry);
     }
 }
