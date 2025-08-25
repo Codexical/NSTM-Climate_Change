@@ -1,4 +1,3 @@
-// DepthStreamReceiver.cs
 using UnityEngine;
 using UnityEngine.UI;
 using System;
@@ -60,7 +59,6 @@ public class HandTracker : MonoBehaviour
         {
             lock (frameLock)
             {
-                // Update the texture with new data and reset the flag
                 texture.LoadRawTextureData(receivedBytes);
                 texture.Apply();
                 newFrameReady = false;
@@ -138,13 +136,11 @@ public class HandTracker : MonoBehaviour
 
     private void StopClientThread()
     {
-        isRunning = false; // Signal the thread to stop
+        isRunning = false;
 
-        // Close connections immediately
         if (stream != null) stream.Close();
         if (client != null) client.Close();
 
-        // Wait for the thread to finish its current operation and exit
         if (clientThread != null && clientThread.IsAlive)
         {
             clientThread.Join();
@@ -154,7 +150,6 @@ public class HandTracker : MonoBehaviour
 
     private void NetworkLoop()
     {
-        // This outer loop handles reconnection attempts
         while (isRunning)
         {
             try
@@ -166,28 +161,25 @@ public class HandTracker : MonoBehaviour
 
                 byte[] messageSizeBytes = new byte[8];
 
-                // This inner loop reads data while the connection is active
                 while (isRunning)
                 {
                     int bytesRead = ReadAll(stream, messageSizeBytes, 8);
                     if (bytesRead < 8)
                     {
                         Debug.LogWarning("Server disconnected. Breaking read loop.");
-                        break; // Connection lost
+                        break;
                     }
 
-                    // Use ToUInt64 to match Python's 'Q' format (unsigned 64-bit)
                     ulong messageSize = BitConverter.ToUInt64(messageSizeBytes, 0);
 
-                    // Ensure the message size is reasonable before allocating memory
-                    if (messageSize > 0 && messageSize < 10_000_000) // e.g., < 10MB
+                    if (messageSize > 0 && messageSize < 10_000_000)
                     {
                         byte[] frameData = new byte[messageSize];
                         bytesRead = ReadAll(stream, frameData, (int)messageSize);
                         if (bytesRead < (int)messageSize)
                         {
                             Debug.LogWarning("Incomplete frame received. Breaking read loop.");
-                            break; // Connection lost during frame transmission
+                            break;
                         }
 
                         lock (frameLock)
@@ -201,17 +193,14 @@ public class HandTracker : MonoBehaviour
             }
             catch (Exception e)
             {
-                // Log any errors that occur during connection or streaming
                 Debug.LogWarning($"Network error: {e.Message}");
             }
             finally
             {
-                // Clean up resources before the next connection attempt
                 if (stream != null) stream.Close();
                 if (client != null) client.Close();
             }
 
-            // If the script is still supposed to be running, wait 1 second before retrying
             if (isRunning)
             {
                 Debug.Log("Retrying connection in 1 second...");
@@ -229,7 +218,6 @@ public class HandTracker : MonoBehaviour
             int bytesRead = stream.Read(buffer, totalBytesRead, bytesLeft);
             if (bytesRead == 0)
             {
-                // The connection has been closed by the remote host
                 break;
             }
             totalBytesRead += bytesRead;
