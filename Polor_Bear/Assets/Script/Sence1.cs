@@ -22,7 +22,7 @@ public class Sence1 : MonoBehaviour
 
     private IEnumerator WaitToStart()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(2.0f);
         _isGaming = true;
     }
 

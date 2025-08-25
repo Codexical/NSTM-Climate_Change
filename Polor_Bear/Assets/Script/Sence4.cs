@@ -41,7 +41,7 @@ public class Sence4 : MonoBehaviour, TimerController
 
     private IEnumerator WaitToStart()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(2.0f);
         _isGaming = true;
     }
 

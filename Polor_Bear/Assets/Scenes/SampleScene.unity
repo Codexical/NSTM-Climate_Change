@@ -366,7 +366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00012207031, y: 0}
+  m_AnchoredPosition: {x: 0.00024414062, y: 0}
   m_SizeDelta: {x: 0.00024414, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75710931
@@ -4358,7 +4358,7 @@ MonoBehaviour:
   _handTracker: {fileID: 75710931}
   _parent: {fileID: 1336376747}
   _obstacle: {fileID: 7215741807425473516, guid: bdd9298a32eca144cba73ec82a98518a, type: 3}
-  _spawnInterval: 1
+  _spawnInterval: 0.7
 --- !u!1 &1337745686
 GameObject:
   m_ObjectHideFlags: 0
