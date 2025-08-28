@@ -1681,7 +1681,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8548502358454288785, guid: a389c2b56be16fa47a95a9e8e4ac1d59, type: 3}
+  m_Sprite: {fileID: 5297575795858363808, guid: 09d7da95d66b6784c827d3c9d5eaabd3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1701,7 +1701,7 @@ RectTransform:
   m_GameObject: {fileID: 788058110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.5, y: 9.5, z: 9.5}
+  m_LocalScale: {x: 9, y: 9, z: 9}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2125954539}
@@ -2515,6 +2515,8 @@ MonoBehaviour:
   - {fileID: 910913885}
   - {fileID: 1505047789}
   - {fileID: 1776655039}
+  config:
+    sticker: 
 --- !u!4 &1233790355
 Transform:
   m_ObjectHideFlags: 0
