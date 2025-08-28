@@ -145,6 +145,7 @@ public class GameScene : MonoBehaviour, TimerController
             Debug.LogError("Invalid task index: " + _nowIndex);
             return;
         }
+        _tasks[_nowIndex - 1].HideMask();
         Debug.Log("Checking answer: " + answerIndex);
         _ansCount++;
         _isAnswered = true;
@@ -180,7 +181,6 @@ public class GameScene : MonoBehaviour, TimerController
             _isSelected = true;
             _nowIndex = taskIndex;
             _questionPanel.Show(taskIndex - 1);
-            _tasks[_nowIndex - 1].HideMask();
         }
     }
 
