@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
     {
         if (!System.IO.File.Exists(configPath))
         {
-            Config defaultConfig = new Config { lowerBound = 0, upperBound = 10000, sticker = "P", resetGround = true};
+            Config defaultConfig = new Config { lowerBound = 0, upperBound = 10000, sticker = "P", resetGround = true };
             string defaultJson = JsonUtility.ToJson(defaultConfig, true);
             System.IO.File.WriteAllText(configPath, defaultJson);
         }

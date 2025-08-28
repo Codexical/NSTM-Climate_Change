@@ -12,8 +12,8 @@ public class HandTracker : MonoBehaviour
     public int serverPort = 8888;
 
     [Header("Image Settings")]
-    public int imageWidth = 640;
-    public int imageHeight = 360;
+    public int imageWidth = 50;
+    public int imageHeight = 50;
 
     [Header("UI Display")]
     public RawImage displayImage;
@@ -124,6 +124,37 @@ public class HandTracker : MonoBehaviour
         }
 
         return depthArray2D;
+    }
+
+    public bool isAreaTriggered(int posX, int posY, int width, int height)
+    {
+        var coordinates = GetClickArea();
+        if (coordinates == null)
+        {
+            return false;
+        }
+
+        int offsetX = imageWidth / 2;
+        int offsetY = imageHeight / 2;
+        int minX = (posX - width / 2) * imageWidth / 3413;
+        int maxX = (posX + width / 2) * imageWidth / 3413;
+        int minY = (posY - height / 2) * imageHeight / 1920;
+        int maxY = (posY + height / 2) * imageHeight / 1920;
+
+        for (int x = minX; x < maxX; x++)
+        {
+            for (int y = minY; y < maxY; y++)
+            {
+                if (x + offsetX >= 0 && x + offsetX < imageWidth && y + offsetY >= 0 && y + offsetY < imageHeight)
+                {
+                    if (coordinates[y + offsetY, x + offsetX])
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
     }
 
     private void StartClientThread()

@@ -8,14 +8,18 @@ public class Sence2 : MonoBehaviour, TimerController
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private Timer _timer;
     [SerializeField] private GameObject _button;
+    [SerializeField] private float _requiredTriggerTime = 1.0f;
 
     private bool _isGaming = false;
+    private float _triggerTimer = 0f;
 
     private void OnEnable()
     {
         _timer.StartTimer();
         _isGaming = false;
         StartCoroutine(WaitToStart());
+        _triggerTimer = 0f;
+        _button.transform.localScale = new Vector3(1f, 1f, 1f);
     }
 
     private void OnDisable()
@@ -25,7 +29,7 @@ public class Sence2 : MonoBehaviour, TimerController
 
     private IEnumerator WaitToStart()
     {
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(1.0f);
         _isGaming = true;
     }
 
@@ -41,40 +45,21 @@ public class Sence2 : MonoBehaviour, TimerController
             return;
         }
 
-        var coordinates = _handTracker.GetClickArea();
-        if (coordinates == null)
-        {
-            return;
-        }
-
-        int posX = 0;
-        int posY = -22;
-        int width = 771;
-        int height = 286;
-
-        int offsetX = 320;
-        int offsetY = 180;
-        int minX = (posX - width / 2) * 640 / 3413;
-        int maxX = (posX + width / 2) * 640 / 3413;
-        int minY = (posY - height / 2) * 360 / 1920;
-        int maxY = (posY + height / 2) * 360 / 1920;
-
-        bool isAreaTrigger = false;
-        for (int x = minX; x < maxX; x++)
-        {
-            for (int y = minY; y < maxY; y++)
-            {
-                if (coordinates[y + offsetY, x + offsetX])
-                {
-                    isAreaTrigger = true;
-                    break;
-                }
-            }
-        }
+        bool isAreaTrigger = _handTracker.isAreaTriggered(0, -22, 771, 286);
         if (isAreaTrigger)
         {
-            _gameManager.SenceChange(3);
+            _triggerTimer += Time.deltaTime;
+            float scale = 1.0f + _triggerTimer / _requiredTriggerTime * 0.1f;
+            _button.transform.localScale = new Vector3(scale, scale, scale);
+            if (_triggerTimer >= _requiredTriggerTime)
+            {
+                _gameManager.SenceChange(3);
+            }
+        }
+        else
+        {
+            _triggerTimer = 0f;
+            _button.transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
-
 }

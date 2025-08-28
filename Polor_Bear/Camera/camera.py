@@ -42,6 +42,11 @@ def camera_thread_func():
             dpt = dpt[60:420, :]
 
             dpt = project_circle_to_center(dpt, 300, 190, 140)
+
+            dpt = dpt[:, 140:500]
+
+            dpt = cv2.resize(dpt, (50, 50), interpolation=cv2.INTER_NEAREST)
+
             dpt = np.flip(dpt, axis=0)
             dpt = np.flip(dpt, axis=1)
             # print(dpt[180, 320])
@@ -108,7 +113,7 @@ def handle_client_stream(conn, addr):
 
                 conn.sendall(message_size + data)
 
-            time.sleep(0.05)
+            time.sleep(0.03)
 
     except (ConnectionResetError, BrokenPipeError):
         print(f"[Stream Handler] Client {addr} has disconnected.")
